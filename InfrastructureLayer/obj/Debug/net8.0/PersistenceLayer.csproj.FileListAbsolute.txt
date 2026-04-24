@@ -1,0 +1,17 @@
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\PersistenceLayer.deps.json
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\PersistenceLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\ApplicationLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.csproj.AssemblyReference.cache
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.AssemblyInfoInputs.cache
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.AssemblyInfo.cs
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.csproj.CoreCompileInputs.cache
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\Persiste.4ACC52CF.Up2Date
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\refint\PersistenceLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\ref\PersistenceLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\CoreLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\CoreLayer.pdb

@@ -1,0 +1,15 @@
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.deps.json
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.csproj.AssemblyReference.cache
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.AssemblyInfoInputs.cache
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.AssemblyInfo.cs
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\refint\ApplicationLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ref\ApplicationLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\CoreLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\CoreLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\Applicat.033E422A.Up2Date

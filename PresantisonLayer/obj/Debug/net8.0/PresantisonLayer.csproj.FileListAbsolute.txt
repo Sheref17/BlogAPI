@@ -1,0 +1,17 @@
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\PresantisonLayer.deps.json
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\PresantisonLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\PresantisonLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\ApplicationLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\ApplicationLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.csproj.AssemblyReference.cache
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.AssemblyInfoInputs.cache
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.AssemblyInfo.cs
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.csproj.CoreCompileInputs.cache
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\Presanti.BE4F8077.Up2Date
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\refint\PresantisonLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\PresantisonLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\obj\Debug\net8.0\ref\PresantisonLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\CoreLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\PresantisonLayer\bin\Debug\net8.0\CoreLayer.pdb
