@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.CustomExceptions
 {
-    public sealed class CategroyNotFoundException(string message) : NotFoundException (message)
+    public sealed class CategroyNotFoundException(string message) : NotFoundException(message)
     {
-       
+
     }
 
 }

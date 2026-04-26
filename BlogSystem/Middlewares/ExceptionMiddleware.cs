@@ -18,10 +18,10 @@ namespace BlogSystem.Middlewares
             }
             catch (Exception ex)
             {
-           
+
                 context.Response.ContentType = "application/json";
-                var response = new {success = false , errors = new List<string> { ex.Message} };
-                switch(ex) 
+                var response = new { success = false, errors = new List<string> { ex.Message } };
+                switch (ex)
                 {
                     case NotFoundException:
                         context.Response.StatusCode = StatusCodes.Status404NotFound;
@@ -31,7 +31,7 @@ namespace BlogSystem.Middlewares
                         context.Response.StatusCode = StatusCodes.Status400BadRequest;
                         break;
 
-                    
+
                     case UnauthorizedAccessException:
                         context.Response.StatusCode = StatusCodes.Status403Forbidden;
                         break;

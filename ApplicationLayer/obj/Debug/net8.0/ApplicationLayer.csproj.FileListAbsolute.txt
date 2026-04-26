@@ -13,3 +13,4 @@ C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0
 C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\CoreLayer.dll
 C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\bin\Debug\net8.0\CoreLayer.pdb
 C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\Applicat.033E422A.Up2Date
+C:\Users\shere\source\repos\BlogSystemSolution\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.sourcelink.json

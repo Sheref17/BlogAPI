@@ -15,3 +15,4 @@ C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net
 C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\ref\PersistenceLayer.dll
 C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\CoreLayer.dll
 C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\bin\Debug\net8.0\CoreLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\InfrastructureLayer\obj\Debug\net8.0\PersistenceLayer.sourcelink.json

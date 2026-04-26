@@ -8,6 +8,7 @@ namespace ApplicationLayer.CQRS.Comment.CommentDtos
 {
     public class CommentDto
     {
+        public int Id { get; set; }
         public string Content { get; set; } = default!;
         public string UserName { get; set; } = default!;
     }

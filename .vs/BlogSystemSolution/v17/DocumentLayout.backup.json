@@ -3,140 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\postqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\postqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426183848_IntialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InfrastructureLayer\\Data\\Migrations\\20260426183848_IntialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426183646_change comment id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InfrastructureLayer\\Data\\Migrations\\20260426183646_change comment id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\presantisonlayer\\controlles\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|solutionrelative:presantisonlayer\\controlles\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\presantisonlayer\\controlles\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|solutionrelative:presantisonlayer\\controlles\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getall\\getpostshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getall\\getpostshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commands\\edit\\updatecommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commands\\edit\\updatecommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getall\\getpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getall\\getpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commands\\edit\\updatecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commands\\edit\\updatecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commands\\delete\\deletecommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commands\\delete\\deletecommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commands\\delete\\deletecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commands\\delete\\deletecommentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\blogdtos\\postdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\blogdtos\\postdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\blogdtos\\postresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\blogdtos\\postresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\postqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\postqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\interfaces\\ipostqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\interfaces\\ipostqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\irepos\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\irepos\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commentdtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commentdtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\data\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\data\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\delete\\deleteposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\delete\\deleteposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\delete\\deletepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\delete\\deletepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\update\\updateposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\update\\updateposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\update\\updatepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\update\\updatepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\blogdtos\\postdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\blogdtos\\postdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\repos\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\repos\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\create\\createposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\create\\createposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\create\\createpostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\create\\createpostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getbyid\\getpostbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\customexceptions\\categroynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\customexceptions\\categroynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\persistencelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\persistencelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\blogsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\blogsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\presantisonlayer\\presantisonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|solutionrelative:presantisonlayer\\presantisonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\corelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\corelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commands\\create\\addcommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commands\\create\\addcommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,8 +83,135 @@
       "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\data\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\data\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\irepos\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\irepos\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\applicationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\applicationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\blogsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\blogsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\presantisonlayer\\presantisonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E2FBBC4A-3E9B-499F-8852-DD8D060953A6}|PresantisonLayer\\PresantisonLayer.csproj|solutionrelative:presantisonlayer\\presantisonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\persistencelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\persistencelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426161425_comment factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InfrastructureLayer\\Data\\Migrations\\20260426161425_comment factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\data\\configruation\\blogpostconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\data\\configruation\\blogpostconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\comment\\commands\\create\\addcommentcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\comment\\commands\\create\\addcommentcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\entities\\enums\\poststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\entities\\enums\\poststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\update\\updateposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\update\\updateposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\update\\updatepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\update\\updatepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\delete\\deleteposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\delete\\deleteposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\create\\createposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\create\\createposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\create\\createpostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\create\\createpostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getall\\getpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getall\\getpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\queries\\getall\\getpostshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\queries\\getall\\getpostshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\customexceptions\\postnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\customexceptions\\postnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\customexceptions\\categroynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\customexceptions\\categroynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\blogdtos\\postresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\blogdtos\\postresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\cqrs\\blog\\commands\\delete\\deletepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\blog\\commands\\delete\\deletepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\corelayer\\corelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1C90E4B-F3AD-447B-AAC3-D06BD436C7A7}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\corelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -161,10 +220,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260424090231_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,24 +258,8 @@
       "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\cqrs\\auth\\authdtos\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\blogsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4418332E-F47C-4BA4-8CE0-E433D236E673}|BlogSystem\\BlogSystem.csproj|solutionrelative:blogsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\Migration\\20260423182713_intialcreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InfrastructureLayer\\Data\\Migrations\\Migration\\20260423182713_intialcreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\applicationlayer\\applicationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8738F2FD-1C02-4511-891F-67A2F2BD93A8}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\applicationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\data\\migrations\\20260423182936_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\data\\migrations\\20260423182936_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|c:\\users\\shere\\source\\repos\\blogsystemsolution\\infrastructurelayer\\data\\migrations\\20260424095330_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CD557E-7721-41F4-9CFF-1D9AF338FF38}|InfrastructureLayer\\PersistenceLayer.csproj|solutionrelative:infrastructurelayer\\data\\migrations\\20260424095330_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -230,7 +269,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -285,59 +324,107 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PostDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20260426183848_IntialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426183848_IntialCreate.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\20260426183848_IntialCreate.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426183848_IntialCreate.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Data\\Migrations\\20260426183848_IntialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:59:14.646Z",
+              "WhenOpened": "2026-04-26T18:38:48.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetPostByIdHandler.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20260426183646_change comment id.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426183646_change comment id.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\20260426183646_change comment id.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426183646_change comment id.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Data\\Migrations\\20260426183646_change comment id.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:47:31.545Z",
+              "WhenOpened": "2026-04-26T18:36:46.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPostQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IPostQueryService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Interfaces\\IPostQueryService.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IPostQueryService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Interfaces\\IPostQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:55:03.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\PostQueryService.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\PostQueryService.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\PostQueryService.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Services\\PostQueryService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:55:56.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteCommentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:08:33.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetPostByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Title": "DeleteCommentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentCommand.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentCommand.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\Commands\\Delete\\DeleteCommentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:47:06.905Z",
+              "WhenOpened": "2026-04-26T15:07:56.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PostResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UpdateCommentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvx0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:46:22.569Z",
+              "WhenOpened": "2026-04-26T15:26:03.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateCommentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentCommand.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentCommand.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\Commands\\Edit\\UpdateCommentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:25:44.276Z",
               "EditorCaption": ""
             },
             {
@@ -348,14 +435,14 @@
               "RelativeDocumentMoniker": "PresantisonLayer\\Controlles\\BlogController.cs",
               "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\PresantisonLayer\\Controlles\\BlogController.cs",
               "RelativeToolTip": "PresantisonLayer\\Controlles\\BlogController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwDwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwGsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T09:22:20.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\PresantisonLayer\\Controlles\\AuthController.cs",
               "RelativeDocumentMoniker": "PresantisonLayer\\Controlles\\AuthController.cs",
@@ -368,401 +455,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Program.cs",
-              "RelativeDocumentMoniker": "BlogSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Program.cs",
-              "RelativeToolTip": "BlogSystem\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:53:58.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PostQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\PostQueryService.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\PostQueryService.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\PostQueryService.cs*",
-              "RelativeToolTip": "InfrastructureLayer\\Services\\PostQueryService.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:55:56.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPostQueryService.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IPostQueryService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Interfaces\\IPostQueryService.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IPostQueryService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Interfaces\\IPostQueryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:55:03.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\IRepos\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "CoreLayer\\IRepos\\IPostRepository.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\IRepos\\IPostRepository.cs",
-              "RelativeToolTip": "CoreLayer\\IRepos\\IPostRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAtwA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T20:49:02.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Tag.cs",
-              "RelativeDocumentMoniker": "CoreLayer\\Entities\\Tag.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Tag.cs",
-              "RelativeToolTip": "CoreLayer\\Entities\\Tag.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T08:46:47.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:49:16.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetPostsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T14:20:16.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetPostsHandler.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T14:20:33.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "CommentDto.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\CommentDtos\\CommentDto.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\CommentDtos\\CommentDto.cs",
               "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\CommentDtos\\CommentDto.cs",
               "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\CommentDtos\\CommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T14:03:31.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DeletePostCommand.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "PostDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:40:21.93Z",
+              "WhenOpened": "2026-04-24T13:59:14.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:49:58.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DeletePostHandler.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:40:41.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UpdatePostCommand.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:40:36.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreatePostCommand.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T20:46:10.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UpdatePostHandler.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:41:02.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 12,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Repos\\PostRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repos\\PostRepository.cs",
               "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Repos\\PostRepository.cs",
               "RelativeToolTip": "InfrastructureLayer\\Repos\\PostRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T20:49:49.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Identity\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\ApplicationUser.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Identity\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "GetPostByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:45:11.713Z",
+              "WhenOpened": "2026-04-24T13:47:31.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CurrentUserService.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\CurrentUserService.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\CurrentUserService.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\CurrentUserService.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Services\\CurrentUserService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCcAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "GetPostByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetById\\GetPostByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T09:18:21.45Z",
+              "WhenOpened": "2026-04-24T13:47:06.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreatePostHandler.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
-              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "BlogSystem\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T20:47:05.917Z",
+              "WhenOpened": "2026-04-24T12:49:16.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PersistenceLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\PersistenceLayer.csproj",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\PersistenceLayer.csproj",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\PersistenceLayer.csproj",
-              "RelativeToolTip": "InfrastructureLayer\\PersistenceLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-23T18:12:12.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
-              "RelativeToolTip": "ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "AddCommentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:46:22.967Z",
+              "WhenOpened": "2026-04-26T14:57:45.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CategroyNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
-              "RelativeToolTip": "ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:46:48.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BlogSystem",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\BlogSystem.csproj",
-              "RelativeDocumentMoniker": "BlogSystem\\BlogSystem.csproj",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\BlogSystem.csproj",
-              "RelativeToolTip": "BlogSystem\\BlogSystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T11:38:47.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CoreLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\CoreLayer.csproj",
-              "RelativeDocumentMoniker": "CoreLayer\\CoreLayer.csproj",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\CoreLayer.csproj",
-              "RelativeToolTip": "CoreLayer\\CoreLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-23T20:37:16.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PresantisonLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\PresantisonLayer\\PresantisonLayer.csproj",
-              "RelativeDocumentMoniker": "PresantisonLayer\\PresantisonLayer.csproj",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\PresantisonLayer\\PresantisonLayer.csproj",
-              "RelativeToolTip": "PresantisonLayer\\PresantisonLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-23T17:58:25.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IdentityService.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\IdentityService.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\IdentityService.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\IdentityService.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Services\\IdentityService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwEIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:32:23.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "JWTService.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\JWTService.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\JWTService.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\JWTService.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Services\\JWTService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:20:09.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IdentitySeeder.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\IdentitySeeder.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Identity\\IdentitySeeder.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\IdentitySeeder.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Identity\\IdentitySeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T18:52:42.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 17,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "CoreLayer\\Entities\\Comment.cs",
               "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Comment.cs",
               "RelativeToolTip": "CoreLayer\\Entities\\Comment.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswA0AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T20:39:24.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 18,
               "Title": "BlogPost.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\BlogPost.cs",
               "RelativeDocumentMoniker": "CoreLayer\\Entities\\BlogPost.cs",
               "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\BlogPost.cs",
               "RelativeToolTip": "CoreLayer\\Entities\\BlogPost.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwDoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T20:37:45.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 19,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "CoreLayer\\Entities\\Category.cs",
@@ -775,32 +585,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "PostStatus.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Enums\\PostStatus.cs",
-              "RelativeDocumentMoniker": "CoreLayer\\Entities\\Enums\\PostStatus.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Enums\\PostStatus.cs",
-              "RelativeToolTip": "CoreLayer\\Entities\\Enums\\PostStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T20:38:45.918Z",
-              "EditorCaption": ""
+              "DocumentIndex": 29,
+              "Title": "PersistenceLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\PersistenceLayer.csproj",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\PersistenceLayer.csproj",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\PersistenceLayer.csproj",
+              "RelativeToolTip": "InfrastructureLayer\\PersistenceLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T18:12:12.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IJWTService.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IJWTService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Interfaces\\IJWTService.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IJWTService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Interfaces\\IJWTService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Data\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:18:33.553Z"
+              "WhenOpened": "2026-04-23T16:49:58.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 23,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\IRepos\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\IRepos\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\IRepos\\IPostRepository.cs",
+              "RelativeToolTip": "CoreLayer\\IRepos\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:49:02.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\AssemblyReference.cs",
@@ -812,19 +633,367 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "20260424095330_intial.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260424095330_intial.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\20260424095330_intial.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260424095330_intial.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Data\\Migrations\\20260424095330_intial.cs",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Program.cs",
+              "RelativeDocumentMoniker": "BlogSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\Program.cs",
+              "RelativeToolTip": "BlogSystem\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:53:58.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\CurrentUserService.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Services\\CurrentUserService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T09:18:21.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\ApplicationLayer.csproj",
+              "RelativeDocumentMoniker": "ApplicationLayer\\ApplicationLayer.csproj",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\ApplicationLayer.csproj",
+              "RelativeToolTip": "ApplicationLayer\\ApplicationLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T17:25:55.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PresantisonLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\PresantisonLayer\\PresantisonLayer.csproj",
+              "RelativeDocumentMoniker": "PresantisonLayer\\PresantisonLayer.csproj",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\PresantisonLayer\\PresantisonLayer.csproj",
+              "RelativeToolTip": "PresantisonLayer\\PresantisonLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T17:58:25.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BlogSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\BlogSystem.csproj",
+              "RelativeDocumentMoniker": "BlogSystem\\BlogSystem.csproj",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\BlogSystem.csproj",
+              "RelativeToolTip": "BlogSystem\\BlogSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-24T11:38:47.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAJ4UAAAAAAAAAAAQwLIUAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-26T16:30:25.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BlogpostConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Configruation\\BlogpostConfiguration.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Configruation\\BlogpostConfiguration.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Configruation\\BlogpostConfiguration.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Data\\Configruation\\BlogpostConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:04:06.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260426161425_comment factory.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426161425_comment factory.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\20260426161425_comment factory.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260426161425_comment factory.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Data\\Migrations\\20260426161425_comment factory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T09:53:30.217Z"
+              "WhenOpened": "2026-04-26T16:14:25.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddCommentCommand .cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentCommand .cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentCommand .cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentCommand .cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Comment\\Commands\\Create\\AddCommentCommand .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:56:20.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Tag.cs",
+              "RelativeToolTip": "CoreLayer\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T08:46:47.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PostStatus.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Enums\\PostStatus.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Entities\\Enums\\PostStatus.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\Entities\\Enums\\PostStatus.cs",
+              "RelativeToolTip": "CoreLayer\\Entities\\Enums\\PostStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:38:45.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\JWTService.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\JWTService.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Services\\JWTService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:20:09.666Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
+              "Title": "UpdatePostHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:41:02.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\IdentityService.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Services\\IdentityService.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Services\\IdentityService.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Services\\IdentityService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwEIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:32:23.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdatePostCommand.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Update\\UpdatePostCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:40:36.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BlogSystem\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\appsettings.Development.json",
+              "RelativeToolTip": "BlogSystem\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T17:54:05.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeletePostHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:40:41.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreatePostHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:47:05.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreatePostCommand.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Create\\CreatePostCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:46:10.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetPostsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T14:20:16.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetPostsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Queries\\GetAll\\GetPostsHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T14:20:33.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PostNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\PostNotFoundException.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CustomExceptions\\PostNotFoundException.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\PostNotFoundException.cs",
+              "RelativeToolTip": "ApplicationLayer\\CustomExceptions\\PostNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T14:40:27.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
+              "RelativeToolTip": "ApplicationLayer\\CustomExceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:46:22.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PostResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\BlogDtos\\PostResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:46:22.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CategroyNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
+              "RelativeToolTip": "ApplicationLayer\\CustomExceptions\\CategroyNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T12:46:48.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DeletePostCommand.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
+              "RelativeToolTip": "ApplicationLayer\\CQRS\\Blog\\Commands\\Delete\\DeletePostCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:40:21.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:45:11.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CoreLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\CoreLayer.csproj",
+              "RelativeDocumentMoniker": "CoreLayer\\CoreLayer.csproj",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\CoreLayer\\CoreLayer.csproj",
+              "RelativeToolTip": "CoreLayer\\CoreLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T20:37:16.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Identity\\IdentitySeeder.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Identity\\IdentitySeeder.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Identity\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T18:52:42.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IJWTService.cs",
+              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IJWTService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Interfaces\\IJWTService.cs",
+              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IJWTService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Interfaces\\IJWTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:18:33.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Interfaces\\ICurrentUserService.cs",
@@ -836,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 55,
               "Title": "20260424090231_tables.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260424090231_tables.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\20260424090231_tables.cs",
@@ -848,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 57,
               "Title": "RegisterHandler.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\RegisterHandler.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\RegisterHandler.cs",
@@ -860,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 58,
               "Title": "RegisterCommend.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\RegisterCommend.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\RegisterCommend.cs",
@@ -872,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 59,
               "Title": "LoginHandler.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\LoginHandler.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\LoginHandler.cs",
@@ -884,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 56,
               "Title": "IIdentityService.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\Interfaces\\IIdentityService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Interfaces\\IIdentityService.cs",
@@ -896,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 60,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\LoginCommand.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\LoginCommand.cs",
@@ -908,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 61,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\AuthDtos\\ApiResponse.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\AuthDtos\\ApiResponse.cs",
@@ -920,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 62,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\AuthDtos\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\AuthDtos\\AuthResponseDto.cs",
@@ -932,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 63,
               "Title": "AuthResult.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\CQRS\\Auth\\AuthDtos\\AuthResult.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\CQRS\\Auth\\AuthDtos\\AuthResult.cs",
@@ -944,19 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "BlogSystem\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\BlogSystem\\appsettings.Development.json",
-              "RelativeToolTip": "BlogSystem\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-23T17:54:05.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 64,
               "Title": "20260423182713_intialcreat.cs",
               "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\Migration\\20260423182713_intialcreat.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\Migration\\20260423182713_intialcreat.cs",
@@ -967,29 +1124,12 @@
               "WhenOpened": "2026-04-23T18:27:13.912Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "20260423182936_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260423182936_InitialCreate.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Data\\Migrations\\20260423182936_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\InfrastructureLayer\\Data\\Migrations\\20260423182936_InitialCreate.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Data\\Migrations\\20260423182936_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T18:29:37.087Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ApplicationLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\ApplicationLayer.csproj",
-              "RelativeDocumentMoniker": "ApplicationLayer\\ApplicationLayer.csproj",
-              "ToolTip": "C:\\Users\\shere\\source\\repos\\BlogSystemSolution\\ApplicationLayer\\ApplicationLayer.csproj",
-              "RelativeToolTip": "ApplicationLayer\\ApplicationLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-23T17:25:55.155Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

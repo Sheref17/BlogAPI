@@ -17,4 +17,8 @@
     <ProjectReference Include="..\CoreLayer\CoreLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CQRS\Comment\Queries\" />
+  </ItemGroup>
+
 </Project>

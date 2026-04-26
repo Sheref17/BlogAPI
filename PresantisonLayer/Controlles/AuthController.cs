@@ -11,9 +11,9 @@ namespace PresantisonLayer.Controlles
 {
     [ApiController]
     [Route("api/auth")]
-    public class AuthController(IMediator mediator): ControllerBase
+    public class AuthController(IMediator mediator) : ControllerBase
     {
-        private readonly  IMediator _mediator = mediator;
+        private readonly IMediator _mediator = mediator;
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterCommend command)
         {

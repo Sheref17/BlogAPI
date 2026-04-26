@@ -28,8 +28,8 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Delete
             if (post is null)
                 throw new PostNotFoundException("Post not found");
 
-        
-            if (post.AuthorId != _currentUser.UserId )
+
+            if (post.AuthorId != _currentUser.UserId)
                 throw new UnauthorizedAccessException("You are not allowed to delete this post");
 
             await _repo.DeleteAsync(post);

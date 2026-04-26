@@ -43,15 +43,67 @@
   },
   {
     "ContainingType": "PresantisonLayer.Controlles.BlogController",
-    "Method": "GetById",
-    "RelativePath": "api/blog/{id}",
-    "HttpMethod": "GET",
+    "Method": "UpdateComment",
+    "RelativePath": "api/blog/{postId}/comments/{commentId}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "postId",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresantisonLayer.Controlles.BlogController",
+    "Method": "DeleteComment",
+    "RelativePath": "api/blog/{postId}/Comments/{commentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresantisonLayer.Controlles.BlogController",
+    "Method": "AddComment",
+    "RelativePath": "api/blog/AddComment/{postId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "ApplicationLayer.CQRS.Comment.Commands.Create.AddCommentCommand",
         "IsRequired": true
       }
     ],
@@ -78,6 +130,22 @@
     "Method": "Delete",
     "RelativePath": "api/blog/DeleteBlog/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PresantisonLayer.Controlles.BlogController",
+    "Method": "GetById",
+    "RelativePath": "api/blog/GetAllBlogs/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

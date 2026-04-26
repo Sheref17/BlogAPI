@@ -8,7 +8,7 @@ namespace CoreLayer.Entities
 {
     public class Comment
     {
-        public Guid Id { get; private set; }
+        public int Id { get; private set; }
         public Guid UserId { get; private set; }
         public string Content { get; private set; }
         public DateTime CreatedAt { get; private set; }
@@ -19,11 +19,20 @@ namespace CoreLayer.Entities
 
         public Comment(Guid userId, string content, int postId)
         {
-            Id = Guid.NewGuid();
+          
             UserId = userId;
             Content = content;
             BlogPostId = postId;
             CreatedAt = DateTime.UtcNow;
         }
+
+        public void Update(string content)
+        {
+            if (string.IsNullOrWhiteSpace(content))
+                throw new Exception("Content is required");
+
+            Content = content;
+        }
+      
     }
 }

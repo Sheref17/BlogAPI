@@ -11,5 +11,5 @@ namespace ApplicationLayer.CQRS.Blog.Queries.GetAll
     public class GetPostsQuery : IRequest<List<PostResponseDto>>
     {
     }
-   
+
 }

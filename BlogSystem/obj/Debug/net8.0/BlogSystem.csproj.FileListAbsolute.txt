@@ -165,3 +165,4 @@ C:\Users\shere\source\repos\BlogSystemSolution\BlogSystem\obj\Debug\net8.0\BlogS
 C:\Users\shere\source\repos\BlogSystemSolution\BlogSystem\obj\Debug\net8.0\ref\BlogSystem.dll
 C:\Users\shere\source\repos\BlogSystemSolution\BlogSystem\bin\Debug\net8.0\CoreLayer.dll
 C:\Users\shere\source\repos\BlogSystemSolution\BlogSystem\bin\Debug\net8.0\CoreLayer.pdb
+C:\Users\shere\source\repos\BlogSystemSolution\BlogSystem\obj\Debug\net8.0\BlogSystem.sourcelink.json

@@ -10,7 +10,8 @@ namespace CoreLayer.Entities
     {
         public Guid Id { get; private set; }
         public string Name { get; private set; }
-        private Tag() { 
+        private Tag()
+        {
         }
         public Tag(string name)
         {

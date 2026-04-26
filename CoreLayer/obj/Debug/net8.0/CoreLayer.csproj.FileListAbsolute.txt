@@ -9,3 +9,4 @@ C:\Users\shere\source\repos\BlogSystemSolution\CoreLayer\obj\Debug\net8.0\CoreLa
 C:\Users\shere\source\repos\BlogSystemSolution\CoreLayer\obj\Debug\net8.0\refint\CoreLayer.dll
 C:\Users\shere\source\repos\BlogSystemSolution\CoreLayer\obj\Debug\net8.0\CoreLayer.pdb
 C:\Users\shere\source\repos\BlogSystemSolution\CoreLayer\obj\Debug\net8.0\ref\CoreLayer.dll
+C:\Users\shere\source\repos\BlogSystemSolution\CoreLayer\obj\Debug\net8.0\CoreLayer.sourcelink.json

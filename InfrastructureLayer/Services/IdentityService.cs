@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace PersistenceLayer.Services
 {
-    public class IdentityService(UserManager<ApplicationUser> userManager , IJWTService JWTService) : IIdentityService
+    public class IdentityService(UserManager<ApplicationUser> userManager, IJWTService JWTService) : IIdentityService
     {
         private readonly UserManager<ApplicationUser> _userManager = userManager;
         private readonly IJWTService _JWTService = JWTService;
@@ -61,7 +61,7 @@ namespace PersistenceLayer.Services
 
             if (!result.Succeeded || string.IsNullOrEmpty(fullName))
             {
-                if(string.IsNullOrEmpty(fullName))
+                if (string.IsNullOrEmpty(fullName))
                 {
                     result = IdentityResult.Failed(new IdentityError { Description = "Full name is required" });
                 }

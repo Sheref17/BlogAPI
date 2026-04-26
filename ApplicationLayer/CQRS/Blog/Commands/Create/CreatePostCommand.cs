@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.CQRS.Blog.Commands.Create
 {
-    public class CreatePostCommand :IRequest<int>
+    public class CreatePostCommand : IRequest<int>
     {
         public string Title { get; set; } = default!;
         public string Content { get; set; } = default!;

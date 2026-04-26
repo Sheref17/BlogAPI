@@ -3,19 +3,27 @@ using InfrastructureLayer.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PersistenceLayer.Data.Configruation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace InfrastructureLayer.Data.Contexts
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser ,IdentityRole<Guid> ,Guid>
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser, IdentityRole<Guid>, Guid>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
-            
+
+        }
+        override protected void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new BlogpostConfiguration());
+
         }
 
 

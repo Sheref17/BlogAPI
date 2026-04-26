@@ -14,6 +14,7 @@ namespace CoreLayer.IRepos
         Task<BlogPost?> GetByIdAsync(int id);
         Task DeleteAsync(BlogPost post);
         Task<bool> ExistCategroy(int categoryId);
+        Task AddCommentAsync(Comment comment);
 
         Task SaveChangesAsync();
     }

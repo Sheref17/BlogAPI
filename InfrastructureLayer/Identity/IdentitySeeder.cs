@@ -19,7 +19,7 @@ namespace PersistenceLayer.Identity
                     await roleManager.CreateAsync(new IdentityRole<Guid>
                     {
                         Name = role,
-                   
+
                     });
                 }
             }

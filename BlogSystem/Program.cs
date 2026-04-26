@@ -51,23 +51,23 @@ namespace BlogSystem
             })
                .AddJwtBearer(options =>
                              {
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
+                                 options.TokenValidationParameters = new TokenValidationParameters
+                                 {
+                                     ValidateIssuer = true,
+                                     ValidateAudience = true,
+                                     ValidateLifetime = true,
+                                     ValidateIssuerSigningKey = true,
 
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
-        )
-    };
-});
+                                     ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                                     ValidAudience = builder.Configuration["Jwt:Audience"],
+                                     IssuerSigningKey = new SymmetricSecurityKey(
+                                         Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
+                                     )
+                                 };
+                             });
 
             var app = builder.Build();
-           
+
             using (var scope = app.Services.CreateScope())
             {
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole<Guid>>>();

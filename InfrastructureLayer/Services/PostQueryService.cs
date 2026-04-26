@@ -30,9 +30,10 @@ namespace PersistenceLayer.Services
 
                     Comments = p.Comments.Select(c => new CommentDto
                     {
+                        Id = c.Id,
                         Content = c.Content,
 
-                      
+
                         UserName = _context.Users
                             .Where(u => u.Id == c.UserId)
                             .Select(u => u.FullName)

@@ -9,7 +9,7 @@ namespace ApplicationLayer.Interfaces
 {
     public interface IIdentityService
     {
-        Task<ApiResponse<AuthResult>> Register(string email, string password , string fullName);
+        Task<ApiResponse<AuthResult>> Register(string email, string password, string fullName);
         Task<ApiResponse<AuthResponseDto>> Login(string email, string password);
     }
 }

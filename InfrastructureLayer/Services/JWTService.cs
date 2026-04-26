@@ -21,13 +21,13 @@ namespace InfrastructureLayer.Services
                 new Claim(ClaimTypes.NameIdentifier , userId.ToString()),
                 new Claim(ClaimTypes.Email, email)
             };
-            foreach(var role in roles)
+            foreach (var role in roles)
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]!));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var token =new JwtSecurityToken(
+            var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:Issuer"],
                 audience: _configuration["JWT:Audience"],
                 claims: claims,

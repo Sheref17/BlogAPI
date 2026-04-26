@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.CQRS.Auth
 {
-    public class LoginHandler(IIdentityService identityService): IRequestHandler<LoginCommand, ApiResponse<AuthResponseDto>>
+    public class LoginHandler(IIdentityService identityService) : IRequestHandler<LoginCommand, ApiResponse<AuthResponseDto>>
     {
-      
+
 
         private readonly IIdentityService _identityService = identityService;
 

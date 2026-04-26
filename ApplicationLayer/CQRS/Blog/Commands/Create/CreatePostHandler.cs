@@ -25,7 +25,7 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
         public async Task<int> Handle(CreatePostCommand request, CancellationToken cancellationToken)
         {
             var categoryExist = await _repo.ExistCategroy(request.CategoryId);
-            if(!categoryExist)
+            if (!categoryExist)
             {
                 throw new CategroyNotFoundException($"Category With This Id : {request.CategoryId} not found");
             }
@@ -33,7 +33,7 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
             var post = new BlogPost(
                 request.Title,
                 request.Content,
-                _currentUser.UserId ,
+                _currentUser.UserId,
                 request.CategoryId
 
             );

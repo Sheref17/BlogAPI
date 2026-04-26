@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.CQRS.Blog.Commands.Update
 {
-    public class UpdatePostHandler : IRequestHandler<UpdatePostCommand , bool>
+    public class UpdatePostHandler : IRequestHandler<UpdatePostCommand, bool>
     {
         private readonly IPostRepository _repo;
         private readonly ICurrentUserService _currentUser;
-        public UpdatePostHandler(IPostRepository repo , ICurrentUserService currentUser)
+        public UpdatePostHandler(IPostRepository repo, ICurrentUserService currentUser)
         {
             _repo = repo;
             _currentUser = currentUser;
@@ -31,8 +31,8 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Update
             post.ChangeCategory(request.CategoryId);
             await _repo.SaveChangesAsync();
             return true;
-          ;
-      
+            ;
+
 
 
 

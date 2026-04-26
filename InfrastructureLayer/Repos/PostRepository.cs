@@ -51,10 +51,15 @@ namespace PersistenceLayer.Repos
 
         public async Task<bool> ExistCategroy(int categoryId)
         {
-          var result =  await _context.Categories.FindAsync(categoryId);
+            var result = await _context.Categories.FindAsync(categoryId);
             if (result is null) return false;
             else return true;
 
+        }
+
+        public async Task AddCommentAsync(Comment comment)
+        {
+            await _context.Comments.AddAsync(comment);
         }
     }
 }

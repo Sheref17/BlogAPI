@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InfrastructureLayer.Identity
 {
-    public class ApplicationUser:IdentityUser<Guid>
+    public class ApplicationUser : IdentityUser<Guid>
     {
         public string FullName { get; set; } = default!;
 
