@@ -51,6 +51,8 @@ namespace CoreLayer.Entities
             Title = title;
             Content = content;
         }
+        
+       
 
         public void ChangeCategory(int categoryId)
         {

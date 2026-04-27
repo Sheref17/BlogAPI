@@ -16,5 +16,15 @@ namespace CoreLayer.Entities
 
             Name = name;
         }
+        
+        public void AddCategory (string name)
+        {
+            Name = name;
+        }
+        public void Update (  string name)
+        {
+          
+            Name = name;
+        }
     }
 }

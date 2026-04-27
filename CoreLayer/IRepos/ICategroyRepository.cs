@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.IRepos
 {
-    public interface IPostRepository : IGenericRepository<BlogPost>
+    public interface ICategroyRepository : IGenericRepository<Category>
     {
-    
-     
-        Task AddCommentAsync(Comment comment);
-
+        Task<bool> CategoryNameExist(string name);
     }
 }

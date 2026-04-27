@@ -16,16 +16,18 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
     {
         private readonly IPostRepository _repo;
         private readonly ICurrentUserService _currentUser;
+        private readonly ICategroyRepository _categroyRepository;
 
-        public CreatePostHandler(IPostRepository repo, ICurrentUserService currentUser)
+        public CreatePostHandler(IPostRepository repo, ICurrentUserService currentUser , ICategroyRepository categroyRepository)
         {
             _repo = repo;
             _currentUser = currentUser;
+           _categroyRepository = categroyRepository;
         }
         public async Task<int> Handle(CreatePostCommand request, CancellationToken cancellationToken)
         {
-            var categoryExist = await _repo.ExistCategroy(request.CategoryId);
-            if (!categoryExist)
+            var categoryExist = await _categroyRepository.GetByIdAsync(request.CategoryId);
+            if (categoryExist is null)
             {
                 throw new CategroyNotFoundException($"Category With This Id : {request.CategoryId} not found");
             }

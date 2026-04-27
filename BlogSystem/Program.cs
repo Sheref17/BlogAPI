@@ -36,6 +36,14 @@ namespace BlogSystem
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
             builder.Services.AddScoped<IPostQueryService, PostQueryService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICategroyRepository, CategroyRepository>();
+          
+
+
+
+
+
             builder.Services.AddDbContext<ApplicationDbContext>(opt =>
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

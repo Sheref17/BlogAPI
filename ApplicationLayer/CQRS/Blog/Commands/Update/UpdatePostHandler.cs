@@ -14,17 +14,20 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Update
     {
         private readonly IPostRepository _repo;
         private readonly ICurrentUserService _currentUser;
-        public UpdatePostHandler(IPostRepository repo, ICurrentUserService currentUser)
+        private readonly ICategroyRepository _categroyRepository;
+
+        public UpdatePostHandler(IPostRepository repo, ICurrentUserService currentUser , ICategroyRepository categroyRepository)
         {
             _repo = repo;
             _currentUser = currentUser;
+            _categroyRepository = categroyRepository;
         }
         public async Task<bool> Handle(UpdatePostCommand request, CancellationToken cancellationToken)
         {
             var post = await _repo.GetByIdAsync(request.Id);
             if (post is null) throw new PostNotFoundException("Post Not Found");
-            var categroyExist = await _repo.ExistCategroy(request.CategoryId);
-            if (!categroyExist)
+            var categroyExist = await _categroyRepository.GetByIdAsync(request.CategoryId);
+            if (categroyExist is null)
                 throw new CategroyNotFoundException($"Category With This Id : {request.CategoryId} not found");
             if (post.AuthorId != _currentUser.UserId) throw new UnauthorizedAccessException("You are not the author of this post");
             post.Update(request.Title, request.Content);
