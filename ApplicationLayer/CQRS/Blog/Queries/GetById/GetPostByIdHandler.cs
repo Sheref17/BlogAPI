@@ -21,7 +21,10 @@ namespace ApplicationLayer.CQRS.Blog.Queries.GetById
         }
         public async Task<PostDetailsDto> Handle(GetPostByIdQuery request, CancellationToken cancellationToken)
         {
-            var post = await _queryService.GetByIdAsync(request.Id);
+
+            if (request.Page <= 0) request.Page = 1;
+            if (request.PageSize <= 0 || request.PageSize > 5) request.PageSize = 5;
+            var post = await _queryService.GetByIdAsync(request.Id ,request.Page ,request.PageSize);
 
             if (post == null)
                 throw new PostNotFoundException("Post not found");

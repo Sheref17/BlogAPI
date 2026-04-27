@@ -1,4 +1,5 @@
-﻿using ApplicationLayer.CQRS.Auth.AuthDtos;
+﻿using ApplicationLayer.Common;
+using ApplicationLayer.CQRS.Auth.AuthDtos;
 using ApplicationLayer.Interfaces;
 using InfrastructureLayer.Identity;
 using InfrastructureLayer.Services;

@@ -1,4 +1,5 @@
-﻿using ApplicationLayer.CQRS.Comment.CommentDtos;
+﻿using ApplicationLayer.Common;
+using ApplicationLayer.CQRS.Comment.CommentDtos;
 using ApplicationLayer.CQRS.Tag.TagDtos;
 using CoreLayer.Entities;
 using System;
@@ -18,7 +19,9 @@ namespace ApplicationLayer.CQRS.Blog.BlogDtos
         public string Status { get; set; } = default!;
         public DateTime CreatedAt { get; set; }
 
-        public List<CommentDto> Comments { get; set; }
+    
         public List<TagDto> Tags { get; set; }
+        public PagedResponse<CommentDto> CommentsPagination { get; set; }
+
     }
 }

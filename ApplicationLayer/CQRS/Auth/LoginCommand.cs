@@ -1,4 +1,5 @@
-﻿using ApplicationLayer.CQRS.Auth.AuthDtos;
+﻿using ApplicationLayer.Common;
+using ApplicationLayer.CQRS.Auth.AuthDtos;
 using MediatR;
 using System;
 using System.Collections.Generic;

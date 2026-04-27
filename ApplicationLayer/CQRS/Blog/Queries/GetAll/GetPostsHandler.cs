@@ -1,4 +1,5 @@
-﻿using ApplicationLayer.CQRS.Blog.BlogDtos;
+﻿using ApplicationLayer.Common;
+using ApplicationLayer.CQRS.Blog.BlogDtos;
 using ApplicationLayer.Interfaces;
 using MediatR;
 using System;
@@ -6,10 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace ApplicationLayer.CQRS.Blog.Queries.GetAll
 {
-    public class GetPostsHandler : IRequestHandler<GetPostsQuery, List<PostResponseDto>>
+    public class GetPostsHandler : IRequestHandler<GetAllPostsQuery, PagedResponse<PostResponseDto>>
     {
         private readonly IPostQueryService _queryService;
 
@@ -18,9 +20,14 @@ namespace ApplicationLayer.CQRS.Blog.Queries.GetAll
             _queryService = queryService;
         }
 
-        public async Task<List<PostResponseDto>> Handle(GetPostsQuery request, CancellationToken cancellationToken)
+        public async Task<PagedResponse<PostResponseDto>> Handle(GetAllPostsQuery request, CancellationToken cancellationToken)
         {
-            return await _queryService.GetAllAsync();
+            if(request.Page <=0 ) request.Page = 1;
+            if(request.PageSize <= 0 || request.PageSize > 5) request.PageSize = 5;
+      
+            var posts = await _queryService.GetAllAsync(request.Page, request.PageSize);
+        
+            return posts;
         }
     }
 }

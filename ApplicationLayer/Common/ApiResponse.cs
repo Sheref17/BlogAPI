@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationLayer.CQRS.Auth.AuthDtos
+namespace ApplicationLayer.Common
 {
     public class ApiResponse<T>
     {

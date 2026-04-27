@@ -59,18 +59,18 @@ namespace PresantisonLayer.Controlles
 
         [Authorize]
         [HttpGet("GetBlogById/{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromRoute]int id ,[FromQuery] int page ,[FromQuery] int pageSize )
         {
-            var result = await _mediator.Send(new GetPostByIdQuery { Id = id });
+            var result = await _mediator.Send(new GetPostByIdQuery { Id = id, Page = page, PageSize = pageSize });
             return Ok(result);
         }
         [Authorize]
         [HttpGet("GetAllBlogs")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] GetAllPostsQuery query)
         {
-            var result = await _mediator.Send(new GetPostsQuery());
+            var result = await _mediator.Send(query);
             return Ok(result);
         }
-        
+
     }
 }
