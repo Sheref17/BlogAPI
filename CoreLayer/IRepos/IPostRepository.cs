@@ -12,6 +12,7 @@ namespace CoreLayer.IRepos
     
      
         Task AddCommentAsync(Comment comment);
+        Task AddTagAsync(Tag tag);
 
     }
 }

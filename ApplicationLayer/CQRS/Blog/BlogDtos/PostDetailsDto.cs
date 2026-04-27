@@ -1,4 +1,5 @@
 ﻿using ApplicationLayer.CQRS.Comment.CommentDtos;
+using ApplicationLayer.CQRS.Tag.TagDtos;
 using CoreLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,6 @@ namespace ApplicationLayer.CQRS.Blog.BlogDtos
         public DateTime CreatedAt { get; set; }
 
         public List<CommentDto> Comments { get; set; }
-        public List<string> Tags { get; set; }
+        public List<TagDto> Tags { get; set; }
     }
 }

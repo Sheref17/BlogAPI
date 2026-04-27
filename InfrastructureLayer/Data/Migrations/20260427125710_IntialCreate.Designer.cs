@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace PersistenceLayer.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260426183848_IntialCreate")]
+    [Migration("20260427125710_IntialCreate")]
     partial class IntialCreate
     {
         /// <inheritdoc />
@@ -107,9 +107,11 @@ namespace PersistenceLayer.Data.Migrations
 
             modelBuilder.Entity("CoreLayer.Entities.Tag", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("BlogPostId")
                         .HasColumnType("int");

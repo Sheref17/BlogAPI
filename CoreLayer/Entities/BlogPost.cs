@@ -68,6 +68,12 @@ namespace CoreLayer.Entities
         {
             _tags.Remove(tag);
         }
+        public void UpdateTag(int tagId ,string Name)
+        {
+            var tag = _tags.FirstOrDefault(t => t.Id == tagId);
+            if (tag is null) throw new Exception("Tag not found");
+            tag.Update(Name);
+        }
         public void RemoveComment(int commentId)
         {
             var comment = _comments.FirstOrDefault(c => c.Id == commentId);

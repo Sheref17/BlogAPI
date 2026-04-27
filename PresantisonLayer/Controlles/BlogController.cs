@@ -58,54 +58,19 @@ namespace PresantisonLayer.Controlles
         }
 
         [Authorize]
-        [HttpGet("GetAllBlogs/{id}")]
+        [HttpGet("GetBlogById/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _mediator.Send(new GetPostByIdQuery { Id = id });
             return Ok(result);
         }
         [Authorize]
-        [HttpGet]
+        [HttpGet("GetAllBlogs")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _mediator.Send(new GetPostsQuery());
             return Ok(result);
         }
-        [Authorize]
-        [HttpPost("AddComment/{postId}")]
-        public async Task<IActionResult> AddComment(int postId, [FromBody] AddCommentCommand command)
-        {
-            command.PostId = postId;
-
-            await _mediator.Send(command);
-
-            return Ok("Comment Added Successfully");
-        }
-        [Authorize]
-        [HttpDelete("{postId}/Comments/{commentId}")]
-        public async Task<IActionResult> DeleteComment(int postId, int commentId)
-        {
-            await _mediator.Send(new DeleteCommentCommand
-            {
-                PostId = postId,
-                CommentId = commentId
-            });
-
-            return Ok("Comment Deleted Successfully");
-        }
-
-        [Authorize]
-        [HttpPut("{postId}/comments/{commentId}")]
-        public async Task<IActionResult> UpdateComment(int postId, int commentId, [FromBody] string content)
-        {
-            await _mediator.Send(new UpdateCommentCommand
-            {
-                PostId = postId,
-                CommentId = commentId,
-                Content = content
-            });
-
-            return Ok("Comment Updated Successfully");
-        }
+        
     }
 }

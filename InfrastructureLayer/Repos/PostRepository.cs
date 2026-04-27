@@ -55,5 +55,11 @@ namespace PersistenceLayer.Repos
         {
             await _context.Comments.AddAsync(comment);
         }
+
+        public async Task AddTagAsync(Tag tag)
+        {
+            await _context.Tags.AddAsync(tag);
+
+        }
     }
 }

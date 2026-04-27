@@ -1,5 +1,6 @@
 ﻿using ApplicationLayer.CQRS.Blog.BlogDtos;
 using ApplicationLayer.CQRS.Comment.CommentDtos;
+using ApplicationLayer.CQRS.Tag.TagDtos;
 using ApplicationLayer.Interfaces;
 using InfrastructureLayer.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -40,7 +41,11 @@ namespace PersistenceLayer.Services
                             .FirstOrDefault()
                     }).ToList(),
 
-                    Tags = p.Tags.Select(t => t.Name).ToList()
+                    Tags = p.Tags.Select(t => new TagDto
+                    {
+                        Id = t.Id,
+                        Name = t.Name
+                    }).ToList()
                 })
                 .FirstOrDefaultAsync();
         }

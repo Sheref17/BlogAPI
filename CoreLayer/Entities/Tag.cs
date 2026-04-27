@@ -8,16 +8,20 @@ namespace CoreLayer.Entities
 {
     public class Tag
     {
-        public Guid Id { get; private set; }
+        public int Id { get; private set; }
         public string Name { get; private set; }
         private Tag()
         {
         }
         public Tag(string name)
         {
-            Id = Guid.NewGuid();
+          
             Name = name;
 
+        }
+        public void Update(string name)
+        {
+            Name = name;
         }
     }
 }
