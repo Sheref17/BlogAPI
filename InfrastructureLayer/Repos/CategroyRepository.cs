@@ -23,7 +23,7 @@ namespace PersistenceLayer.Repos
         public async Task<bool> CategoryNameExist(string name)
         {
             return await _dbContext.Categories
-                .AnyAsync(c => c.Name == name);
+                .AnyAsync(c => c.Name.ToLower() == name.ToLower());
         }
 
         public  Task DeleteAsync(Category entity)

@@ -98,7 +98,7 @@ namespace BlogSystem
 
             app.MapControllers();
 
-            app.Run();
+                app.Run();
         }
     }
 }
