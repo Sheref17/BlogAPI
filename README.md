@@ -1,145 +1,132 @@
-# 📝 Blog API — Clean Architecture + DDD + CQRS
+# 📝 Blog API
 
-A RESTful Blog API built with ASP.NET Core using **Clean Architecture**, **Domain-Driven Design (DDD)**, and **CQRS**.
-This project demonstrates a scalable and maintainable backend with clear separation of concerns.
+A clean and scalable **ASP.NET Core Web API** built using **Clean Architecture, CQRS, and DDD principles**.
 
 ---
 
 ## 🚀 Features
 
-* 🔐 JWT Authentication & Role-based Authorization
-* 📝 Blog Posts (Create / Update / Delete / Get)
-* 💬 Comments System (Create / Update / Delete)
-* 🏷️ Categories & Tags
-* ❗ Global Exception Handling Middleware
-* ⚡ CQRS (Command & Query separation)
-
----
-
-## 🧠 Architecture & Design
-
-### 🔹 Domain-Driven Design (DDD)
-
-* The **CoreLayer (Domain)** contains:
-
-  * Entities: `BlogPost`, `Comment`, `Category`, `Tag`
-  * Business logic inside entities (not controllers)
-* The domain layer is completely independent
-
----
-
-### 🔹 Clean Architecture
-
-The project is structured into layers:
-
-```plaintext
-CoreLayer          → Domain (Entities, Enums)
-ApplicationLayer   → CQRS, DTOs, Interfaces
-InfrastructureLayer → EF Core, Identity, Repositories, Services
-PresantisonLayer   → Controllers (Web API)
-```
-
-* No direct dependency from Application → Infrastructure
-* Each layer has a single responsibility
-
----
-
-### 🔹 CQRS (Command Query Responsibility Segregation)
-
-* **Commands (Write operations)** → handled via repositories
-* **Queries (Read operations)** → handled via query services with DTO projection
-* Full separation between read and write models
-
----
-
-## 🧰 Tech Stack
-
-* .NET 8 / ASP.NET Core
-* Entity Framework Core
-* ASP.NET Identity
-* MediatR
-* SQL Server
-
----
-
-## 🔑 Authentication
+### 🔐 Authentication
 
 * JWT-based authentication
-* Role-based authorization (Admin / User)
-* Secured endpoints using `[Authorize]`
+* User registration & login
 
 ---
 
-## 📌 API Endpoints (Examples)
+### 📰 Blog Management
 
-### 🔐 Auth
+* Create blog posts
+* Update blog posts
+* Delete blog posts
+* Assign category to posts
 
-* `POST /api/auth/register`
-* `POST /api/auth/login`
-
-### 📝 Blog
-
-* `GET /api/blog`
-* `GET /api/blog/{id}`
-* `POST /api/blog`
-* `PUT /api/blog/{id}`
-* `DELETE /api/blog/{id}`
+---
 
 ### 💬 Comments
 
-* `POST /api/comments`
-* `PUT /api/comments/{id}`
-* `DELETE /api/comments/{id}`
+* Add comments to posts
+* Retrieve comments per post
+* Includes user info (username)
+
 
 ---
 
-## ⚙️ How to Run
+### 🗂 Categories
 
-```bash
-git clone https://github.com/Sheref17/BlogAPI.git
-cd BlogAPI
-```
+* Full CRUD operations
+* Validation & existence checks
 
-1. Update the connection string in `appsettings.json`
-2. Apply migrations:
+---
 
-```bash
-dotnet ef database update
-```
+### ⚡ Pagination (NEW 🔥)
 
-3. Run the project:
+Pagination has been implemented for:
 
-```bash
-dotnet run
+* ✅ Posts
+* ✅ Comments (including inside Post Details)
+
+#### ✨ Features:
+
+* Default values:
+
+  * `page = 1`
+  * `pageSize = 5`
+* Max page size limit = **5**
+* Validation for invalid inputs
+* Prevents large data loading
+* Includes metadata:
+
+```json id="2g6z7h"
+{
+  "data": [...],
+  "page": 1,
+  "pageSize": 5,
+  "totalCount": 20,
+  "totalPages": 4
+}
 ```
 
 ---
 
-## 📊 Highlights
+## 🧱 Architecture
 
-* ✔️ Business logic inside the domain (DDD approach)
-* ✔️ No entity leakage (DTOs used for responses)
-* ✔️ Optimized queries using projection (no unnecessary Includes)
-* ✔️ Clear separation of concerns
-* ✔️ Scalable and maintainable architecture
+The project follows **Clean Architecture**:
+
+```id="1r5m1z"
+- CoreLayer (Domain)
+- ApplicationLayer (CQRS + Interfaces)
+- InfrastructureLayer (EF Core, Repositories)
+- PersistenceLayer (Services)
+- PresentationLayer (API Controllers)
+```
 
 ---
 
-## 🔮 Future Improvements
+## ⚙️ Technologies Used
 
-* 📄 Pagination
-* 🔍 Search & Filtering
-* 📊 Logging (Serilog)
-* ⚡ Caching
-* 📘 Swagger enhancements
+* ASP.NET Core Web API
+* Entity Framework Core
+* MediatR (CQRS)
+* SQL Server
+* ASP.NET Identity
+* JWT Authentication
+
+---
+
+## 📌 Best Practices Applied
+
+* Separation of Concerns
+* CQRS pattern (Command / Query split)
+* DTO mapping
+* Query optimization (no unnecessary loading)
+* Pagination in DB (Skip / Take)
+* Clean dependency flow
+
+---
+
+
+
+## 📈 Next Improvements
+
+* 🔐 Role-based Authorization (Admin / Editor)
+* 🟡 Post Status Management (Draft / Published)
+* 🔍 Filtering & Search
+* ✅ FluentValidation
+* 🧾 Logging (Serilog)
+* 🧪 Unit Testing
+
+---
+
+## 💡 Notes
+
+* Pagination is handled efficiently at the database level
+* Query layer optimized to avoid N+1 problems
+* Clean Architecture boundaries are respected
 
 ---
 
 ## 👨‍💻 Author
 
-**Sherif**
-GitHub: https://github.com/Sheref17
+Developed by **Sheref**
 
 ---
-
-⭐ This project is built to demonstrate backend best practices using Clean Architecture, DDD, and CQRS.
