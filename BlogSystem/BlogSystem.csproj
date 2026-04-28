@@ -16,7 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InfrastructureLayer\PersistenceLayer.csproj" />
-    <ProjectReference Include="..\PresantisonLayer\PresantisonLayer.csproj" />
+    <ProjectReference Include="..\PresantisonLayer\PresentationLayer.csproj" />
+
   </ItemGroup>
 
 </Project>
