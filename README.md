@@ -1,6 +1,6 @@
 # BlogAPI 🚀
 
-A scalable **ASP.NET Core Web API** for a full-featured blogging platform built with **Clean Architecture + CQRS + MediatR**.
+A scalable **ASP.NET Core Web API** for a full-featured blogging platform built with **DDD (Domain Driven Design) + CQRS + MediatR**.
 
 This project includes authentication, role-based authorization, post management, categories, comments, tags, pagination, search, filtering, validation, and global exception handling.
 
