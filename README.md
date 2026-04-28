@@ -1,129 +1,295 @@
-# 📝 Blog API
+# BlogAPI 🚀
 
-A clean and scalable **ASP.NET Core Web API** built using **Clean Architecture, CQRS, and DDD principles**.
+A scalable **ASP.NET Core Web API** for a full-featured blogging platform built with **Clean Architecture + CQRS + MediatR**.
 
----
-
-## 🚀 Features
-
-### 🔐 Authentication
-
-* JWT-based authentication
-* User registration & login
+This project includes authentication, role-based authorization, post management, categories, comments, tags, pagination, search, filtering, validation, and global exception handling.
 
 ---
 
-### 📰 Blog Management
+# 📌 Features
 
-* Create blog posts
-* Update blog posts
-* Delete blog posts
-* Assign category to posts
+## 🔐 Authentication & Authorization
 
----
+* User Registration
+* User Login with JWT
+* Role-based Authorization:
 
-### 💬 Comments
-
-* Add comments to posts
-* Retrieve comments per post
-* Includes user info (username)
-
+  * **Admin**
+  * **Editor**
+  * **User**
 
 ---
 
-### 🗂 Categories
+## 📝 Blog Posts
 
-* Full CRUD operations
-* Validation & existence checks
+* Create Post (**Admin / Editor**)
+* Update Post (**Admin / Editor**)
+* Delete Post (**Admin only**)
+* Get All Posts
+* Get Post Details
+* Change Post Status:
+
+  * Draft
+  * Published
+  * Archived
 
 ---
 
-### ⚡ Pagination (NEW 🔥)
+## 📂 Categories
 
-Pagination has been implemented for:
+* Create Category
+* Update Category
+* Delete Category
 
-* ✅ Posts
-* ✅ Comments (including inside Post Details)
+---
 
-#### ✨ Features:
+## 💬 Comments
 
-* Default values:
+* Add Comment (All authenticated users)
+* Update Comment (Comment owner)
+* Delete Comment (Comment owner / Admin)
+* Paginated comments inside post details
 
-  * `page = 1`
-  * `pageSize = 5`
-* Max page size limit = **5**
-* Validation for invalid inputs
-* Prevents large data loading
-* Includes metadata:
+---
 
-```json id="2g6z7h"
-{
-  "data": [...],
-  "page": 1,
-  "pageSize": 5,
-  "totalCount": 20,
-  "totalPages": 4
+## 🏷️ Tags
+
+* Create Tag
+* Update Tag
+* Delete Tag
+
+---
+
+# 🔎 Search & Filtering
+
+Users can:
+
+* Search posts by title
+* Filter by category
+* Filter by tag
+
+Admins / Editors can:
+
+* Filter posts by status (Draft / Published / Archived)
+
+---
+
+# 📄 Pagination
+
+Implemented for:
+
+* Posts
+* Comments
+
+### Default:
+
+```plaintext id="pagination_default"
+Page = 1
+PageSize = 5
+```
+
+---
+
+# 🛡️ Validation
+
+Implemented using:
+
+## FluentValidation + MediatR Pipeline Behavior
+
+### Includes:
+
+* Create / Update / Delete validation
+* Query validation
+* Automatic request validation before handlers
+
+---
+
+# ⚠️ Global Exception Handling
+
+Custom middleware handles:
+
+* ValidationException → 400
+* NotFoundException → 404
+* ForbiddenException → 403
+* ConflictException → 409
+* InternalServerError → 500
+
+---
+
+# 🧱 Project Architecture
+
+```plaintext id="architecture_tree"
+BlogSystemSolution
+│
+├── CoreLayer
+│   ├── Entities
+│   ├── Enums
+│   └── Interfaces
+│
+├── ApplicationLayer
+│   ├── CQRS
+│   ├── Validators
+│   ├── Behaviors
+│   ├── CustomExceptions
+│   └── DependencyInjection
+│
+├── InfrastructureLayer
+│   ├── DbContext
+│   ├── Identity
+│   ├── Repositories
+│   ├── Services
+│   └── DependencyInjection
+│
+└── PresentationLayer (API)
+    ├── Controllers
+    ├── Middlewares
+    └── Extensions
+```
+
+---
+
+# 🛠️ Tech Stack
+
+* ASP.NET Core Web API
+* Entity Framework Core
+* SQL Server
+* ASP.NET Identity
+* JWT Authentication
+* MediatR
+* FluentValidation
+* Swagger / OpenAPI
+
+---
+
+# 🚀 Getting Started
+
+## 1️⃣ Clone the repository
+
+```bash id="clone_command"
+git clone https://github.com/Sheref17/BlogAPI.git
+cd BlogAPI
+```
+
+---
+
+## 2️⃣ Update connection string
+
+Inside:
+
+```plaintext id="appsettings_location"
+appsettings.json
+```
+
+```json id="connection_string_block"
+"ConnectionStrings": {
+  "DefaultConnection": "Your_SQL_Server_Connection"
 }
 ```
 
 ---
 
-## 🧱 Architecture
+## 3️⃣ Apply migrations
 
-The project follows **Clean Architecture**:
-
-```id="1r5m1z"
-- CoreLayer (Domain)
-- ApplicationLayer (CQRS + Interfaces)
-- InfrastructureLayer (EF Core, Repositories)
-- PersistenceLayer (Services)
-- PresentationLayer (API Controllers)
+```bash id="migration_command"
+dotnet ef database update
 ```
 
 ---
 
-## ⚙️ Technologies Used
+## 4️⃣ Run project
 
-* ASP.NET Core Web API
-* Entity Framework Core
-* MediatR (CQRS)
-* SQL Server
-* ASP.NET Identity
-* JWT Authentication
+```bash id="run_command"
+dotnet run
+```
 
 ---
 
-## 📌 Best Practices Applied
+# 👤 Seeded Default Accounts
 
-* Separation of Concerns
-* CQRS pattern (Command / Query split)
-* DTO mapping
-* Query optimization (no unnecessary loading)
-* Pagination in DB (Skip / Take)
-* Clean dependency flow
+## Admin:
 
----
-
-
-
-## 📈 Next Improvements
-
-* ✅ FluentValidation
-* 🧾 Logging (Serilog)
-* 🧪 Unit Testing
+```plaintext id="admin_seed_info"
+Email: admin@blog.com
+Password: Admin@123
+```
 
 ---
 
-## 💡 Notes
+## Editor:
 
-* Pagination is handled efficiently at the database level
-* Query layer optimized to avoid N+1 problems
-* Clean Architecture boundaries are respected
+```plaintext id="editor_seed_info"
+Email: editor@blog.com
+Password: Editor@123
+```
+
+---
+
+# 📬 API Documentation
+
+Swagger UI:
+
+```plaintext id="swagger_path"
+https://localhost:{port}/swagger
+```
 
 ---
 
-## 👨‍💻 Author
+# 🔥 Security Rules
 
-Developed by **Sheref**
+## User:
+
+* View published posts only
+* Add comments
 
 ---
+
+## Editor:
+
+* Create posts
+* Update posts
+
+---
+
+## Admin:
+
+* Full post control (Create / Update / Delete)
+* Manage post status
+* Advanced filtering
+
+---
+
+# 📈 Current Project Status
+
+## ✅ Completed:
+
+* Clean Architecture
+* CQRS
+* JWT Auth
+* Role Authorization
+* Pagination
+* Search & Filtering
+* FluentValidation
+* Global Exception Middleware
+
+---
+
+# 🛣️ Future Improvements
+
+* Serilog Logging
+* Unit Testing
+* Docker Support
+* CI/CD
+* Soft Delete
+* Response Wrapper
+
+---
+
+# 👨‍💻 Author
+
+**Sherif**
+
+---
+
+# ⭐ Final Note
+
+This project was built to simulate a production-style backend system with scalable architecture and maintainable code practices.
