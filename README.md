@@ -288,13 +288,15 @@ https://localhost:{port}/swagger
 
 # 🛣️ Future Improvements
 
-* AutoMapper Integration
-* Serilog Logging
-* Unit Testing
-* Docker Support
-* CI/CD
-* Soft Delete
-* Response Wrapper
+* AutoMapper Integration (Cleaner object mapping and DTO transformation)
+* Serilog Logging (Structured logging and monitoring)
+* Unit Testing (Handlers, services, and authorization rules)
+* Docker Support (Containerized deployment)
+* Soft Delete (Safer data lifecycle management)
+* Response Wrapper (Unified API responses)
+* MongoDB for Read Optimization / Query Performance (Using MongoDB for faster read-heavy operations, advanced search scenarios, and scalable query performance through patterns like CQRS read models)
+* Caching with Redis (Improve frequently accessed data retrieval speed)
+
 
 ---
 
