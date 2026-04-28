@@ -108,7 +108,6 @@ The project follows **Clean Architecture**:
 
 ## 📈 Next Improvements
 
-* 🔍 Filtering & Search
 * ✅ FluentValidation
 * 🧾 Logging (Serilog)
 * 🧪 Unit Testing
