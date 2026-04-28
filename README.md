@@ -40,6 +40,8 @@ This project includes authentication, role-based authorization, post management,
 * Create Category
 * Update Category
 * Delete Category
+* Get All Categories
+* Get Category By Id
 
 ---
 
@@ -83,7 +85,7 @@ Implemented for:
 
 ### Default:
 
-```plaintext id="pagination_default"
+```plaintext id="pagination_defaults"
 Page = 1
 PageSize = 5
 ```
@@ -100,6 +102,7 @@ Implemented using:
 
 * Create / Update / Delete validation
 * Query validation
+* Validators organized inside CQRS folders
 * Automatic request validation before handlers
 
 ---
@@ -118,32 +121,41 @@ Custom middleware handles:
 
 # 🧱 Project Architecture
 
-```plaintext id="architecture_tree"
+```plaintext id="corrected_architecture"
 BlogSystemSolution
 │
 ├── CoreLayer
 │   ├── Entities
 │   ├── Enums
-│   └── Interfaces
+│   └── IRepositories
 │
 ├── ApplicationLayer
 │   ├── CQRS
-│   ├── Validators
+│   │   ├── Auth
+│   │   ├── Blog
+│   │   ├── Category
+│   │   ├── Comment
+│   │   └── Tag
+│   │       └── Validators
 │   ├── Behaviors
 │   ├── CustomExceptions
+│   ├── IServices
 │   └── DependencyInjection
 │
 ├── InfrastructureLayer
-│   ├── DbContext
+│   ├── Data
 │   ├── Identity
 │   ├── Repositories
 │   ├── Services
 │   └── DependencyInjection
 │
-└── PresentationLayer (API)
-    ├── Controllers
+├── PresentationLayer
+│   └── Controllers
+│
+└── BlogSystem
+    ├── Extensions
     ├── Middlewares
-    └── Extensions
+    └── Program.cs
 ```
 
 ---
@@ -165,7 +177,7 @@ BlogSystemSolution
 
 ## 1️⃣ Clone the repository
 
-```bash id="clone_command"
+```bash id="clone_repository"
 git clone https://github.com/Sheref17/BlogAPI.git
 cd BlogAPI
 ```
@@ -176,11 +188,11 @@ cd BlogAPI
 
 Inside:
 
-```plaintext id="appsettings_location"
+```plaintext id="config_file"
 appsettings.json
 ```
 
-```json id="connection_string_block"
+```json id="db_connection"
 "ConnectionStrings": {
   "DefaultConnection": "Your_SQL_Server_Connection"
 }
@@ -190,7 +202,7 @@ appsettings.json
 
 ## 3️⃣ Apply migrations
 
-```bash id="migration_command"
+```bash id="apply_migrations"
 dotnet ef database update
 ```
 
@@ -198,7 +210,7 @@ dotnet ef database update
 
 ## 4️⃣ Run project
 
-```bash id="run_command"
+```bash id="start_project"
 dotnet run
 ```
 
@@ -208,7 +220,7 @@ dotnet run
 
 ## Admin:
 
-```plaintext id="admin_seed_info"
+```plaintext id="admin_credentials"
 Email: admin@blog.com
 Password: Admin@123
 ```
@@ -217,7 +229,7 @@ Password: Admin@123
 
 ## Editor:
 
-```plaintext id="editor_seed_info"
+```plaintext id="editor_credentials"
 Email: editor@blog.com
 Password: Editor@123
 ```
@@ -228,7 +240,7 @@ Password: Editor@123
 
 Swagger UI:
 
-```plaintext id="swagger_path"
+```plaintext id="swagger_endpoint"
 https://localhost:{port}/swagger
 ```
 
@@ -270,11 +282,13 @@ https://localhost:{port}/swagger
 * Search & Filtering
 * FluentValidation
 * Global Exception Middleware
+* Dependency Injection Refactor
 
 ---
 
 # 🛣️ Future Improvements
 
+* AutoMapper Integration
 * Serilog Logging
 * Unit Testing
 * Docker Support
@@ -292,4 +306,4 @@ https://localhost:{port}/swagger
 
 # ⭐ Final Note
 
-This project was built to simulate a production-style backend system with scalable architecture and maintainable code practices.
+This project was built to simulate a production-style backend system with scalable architecture, maintainable code practices, and enterprise-level backend patterns.
