@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 
 namespace ApplicationLayer.CQRS.Comment.Commands.Create
 {
@@ -28,12 +29,15 @@ namespace ApplicationLayer.CQRS.Comment.Commands.Create
         {
             var post = await _postRepository.GetByIdAsync(request.PostId);
             if (post is null)
-                throw new PostNotFoundException("Post not found with the given ID.");
+                throw new PostNotFoundException(request.PostId);
+
+
             var comment = new CoreLayer.Entities.Comment(
                   _currentUserService.UserId,
                   request.Content,
                   request.PostId
-          );
+            );
+
 
             await _postRepository.AddCommentAsync(comment);
 

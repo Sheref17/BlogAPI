@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 namespace PresantisonLayer.Controlles
 {
     [ApiController]
-    [Route("api/category")]
+    [Route("api/Category")]
     public class CategoryController : ControllerBase
     {
 
@@ -26,14 +26,14 @@ namespace PresantisonLayer.Controlles
             _mediator = mediator;
         }
         [Authorize]
-        [HttpPost("createcategory")]
+        [HttpPost("CreateCategory")]
         public async Task<IActionResult> CreateCategory(CreateCategoryCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok("Category created successfully");
         }
         [Authorize]
-        [HttpPut("updatecategory")]
+        [HttpPut("UpdateCategory")]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryCommand command)
         {
             var result = await _mediator.Send(command);
@@ -44,7 +44,7 @@ namespace PresantisonLayer.Controlles
             return BadRequest("Failed to update category.");
         }
         [Authorize]
-        [HttpDelete("deletecategory/{id}")]
+        [HttpDelete("DeleteCategory/{id}")]
         public async Task<IActionResult> DeleteCategory([FromRoute] int id)
         {
             await _mediator.Send(new DeleteCategoryCommand { Id = id });
@@ -52,14 +52,14 @@ namespace PresantisonLayer.Controlles
 
         }
         [Authorize]
-        [HttpGet("getallcategories")]
+        [HttpGet("GetAllCategories")]
         public async Task<IEnumerable<CategoryDto>> GetAllCategories()
         {
             var categories = await _mediator.Send(new GetAllCategoriesCommand());
             return categories;
         }
         [Authorize]
-        [HttpGet("getcategorybyid/{id}")]
+        [HttpGet("GetCategoryById/{id}")]
         public async Task<CategoryDto> GetCategoryById([FromRoute] int id)
         {
             var category = await _mediator.Send(new GetCategoryByIdCommand { Id = id });

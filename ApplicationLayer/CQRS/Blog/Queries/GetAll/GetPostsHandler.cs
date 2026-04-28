@@ -1,5 +1,7 @@
 ﻿using ApplicationLayer.Common;
 using ApplicationLayer.CQRS.Blog.BlogDtos;
+using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.AuthourizedExceptions;
 using ApplicationLayer.Interfaces;
 using MediatR;
 using System;
@@ -26,10 +28,11 @@ namespace ApplicationLayer.CQRS.Blog.Queries.GetAll
         {
             if(request.Page <=0 ) request.Page = 1;
             if(request.PageSize <= 0 || request.PageSize > 5) request.PageSize = 5;
+
             var isAdminOrEditor = _currentUser.IsInRole("Admin") || _currentUser.IsInRole("Editor");
             if (!string.IsNullOrWhiteSpace(request.Status) &&!isAdminOrEditor)
             {
-                throw new UnauthorizedAccessException("Only admin can filter by status");
+                throw new NotAdminOrEditorException("Only admin can filter by status");
             }
 
             var posts = await _queryService.GetAllAsync(request.Page, request.PageSize, request.Title, request.Tag,

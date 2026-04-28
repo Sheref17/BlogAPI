@@ -1,5 +1,6 @@
 ﻿using ApplicationLayer.CQRS.Blog.BlogDtos;
 using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 using ApplicationLayer.Interfaces;
 using MediatR;
 using System;
@@ -26,11 +27,12 @@ namespace ApplicationLayer.CQRS.Blog.Queries.GetById
 
             if (request.Page <= 0) request.Page = 1;
             if (request.PageSize <= 0 || request.PageSize > 5) request.PageSize = 5;
+
             var canViewAllStatuses =_currentUser.IsInRole("Admin") || _currentUser.IsInRole("Editor");
             var post = await _queryService.GetByIdAsync(request.Id ,request.Page ,request.PageSize , canViewAllStatuses);
 
             if (post == null)
-                throw new PostNotFoundException("Post not found");
+                throw new PostNotFoundException(request.Id);
 
             return post;
         }

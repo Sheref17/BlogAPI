@@ -1,4 +1,5 @@
-﻿using ApplicationLayer.CQRS.Auth;
+﻿using ApplicationLayer.CQRS.Auth.Login;
+using ApplicationLayer.CQRS.Auth.Register;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,11 +11,11 @@ using System.Threading.Tasks;
 namespace PresantisonLayer.Controlles
 {
     [ApiController]
-    [Route("api/auth")]
+    [Route("api/Auth")]
     public class AuthController(IMediator mediator) : ControllerBase
     {
         private readonly IMediator _mediator = mediator;
-        [HttpPost("register")]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register(RegisterCommend command)
         {
             var result = await _mediator.Send(command);
@@ -25,7 +26,7 @@ namespace PresantisonLayer.Controlles
             return Ok(result);
         }
 
-        [HttpPost("login")]
+        [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginCommand command)
         {
             var result = await _mediator.Send(command);

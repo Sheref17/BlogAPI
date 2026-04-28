@@ -19,7 +19,7 @@ using System.Threading.Tasks;
 namespace PresantisonLayer.Controlles
 {
     [ApiController]
-    [Route("api/blog")]
+    [Route("api/Blog")]
     public class BlogController : ControllerBase
     {
 

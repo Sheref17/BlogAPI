@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationLayer.CQRS.Auth
+namespace ApplicationLayer.CQRS.Auth.Register
 {
     public class RegisterCommend : IRequest<ApiResponse<AuthResult>>
     {

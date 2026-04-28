@@ -1,4 +1,6 @@
 ﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.AuthourizedExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 using ApplicationLayer.Interfaces;
 using CoreLayer.Entities;
 using CoreLayer.IRepos;
@@ -27,11 +29,12 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
         public async Task<int> Handle(CreatePostCommand request, CancellationToken cancellationToken)
         {
             if (!_currentUser.IsInRole("Admin") && !_currentUser.IsInRole("Editor"))
-                throw new UnauthorizedAccessException("Not allowed");
+                throw new NotAdminOrEditorException();
+
             var categoryExist = await _categroyRepository.GetByIdAsync(request.CategoryId);
             if (categoryExist is null)
             {
-                throw new CategroyNotFoundException($"Category With This Id : {request.CategoryId} not found");
+                throw new CategroyNotFoundException(request.CategoryId);
             }
 
             var post = new BlogPost(

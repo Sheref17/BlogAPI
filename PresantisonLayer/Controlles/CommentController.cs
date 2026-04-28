@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace PresantisonLayer.Controlles
 {
     [ApiController]
-    [Route("api/comment")]
+    [Route("api/Comment")]
     public class CommentController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -33,7 +33,7 @@ namespace PresantisonLayer.Controlles
             return Ok("Comment Added Successfully");
         }
         [Authorize(Roles = "Admin")]
-        [HttpDelete("{postId}/Comments/{commentId}")]
+        [HttpDelete("{postId}/Comment/{commentId}")]
         public async Task<IActionResult> DeleteComment(int postId, int commentId)
         {
             await _mediator.Send(new DeleteCommentCommand
@@ -46,7 +46,7 @@ namespace PresantisonLayer.Controlles
         }
 
         [Authorize]
-        [HttpPut("{postId}/comments/{commentId}")]
+        [HttpPut("{postId}/Comment/{commentId}")]
         public async Task<IActionResult> UpdateComment(int postId, int commentId, [FromBody] string content)
         {
             await _mediator.Send(new UpdateCommentCommand

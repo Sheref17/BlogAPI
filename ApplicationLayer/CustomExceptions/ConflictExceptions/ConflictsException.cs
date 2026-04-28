@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationLayer.CustomExceptions
+namespace ApplicationLayer.CustomExceptions.ConflictExceptions
 {
-    public sealed class PostNotFoundException(string message) : NotFoundException(message)
+    public class ConflictsException (string message): Exception(message)
     {
     }
 }

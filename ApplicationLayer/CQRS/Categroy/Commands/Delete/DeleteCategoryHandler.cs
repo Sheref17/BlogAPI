@@ -1,4 +1,6 @@
-﻿using CoreLayer.IRepos;
+﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
+using CoreLayer.IRepos;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -20,9 +22,11 @@ namespace ApplicationLayer.CQRS.Categroy.Commands.Delete
         {
            var category = await _categroyRepository.GetByIdAsync(request.Id);
             if (category is null)
-                throw new Exception("Category not found");
+                throw new CategroyNotFoundException(request.Id);
+
           await  _categroyRepository.DeleteAsync(category);
             await _categroyRepository.SaveChangesAsync();
+
             return true;
 
         }

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationLayer.CQRS.Auth
+namespace ApplicationLayer.CQRS.Auth.Login
 {
     public class LoginHandler(IIdentityService identityService) : IRequestHandler<LoginCommand, ApiResponse<AuthResponseDto>>
     {

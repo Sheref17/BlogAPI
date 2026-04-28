@@ -1,4 +1,6 @@
 ﻿using ApplicationLayer.CQRS.Categroy.CategoryDtos;
+using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 using ApplicationLayer.Interfaces;
 using MediatR;
 using System;
@@ -21,7 +23,8 @@ namespace ApplicationLayer.CQRS.Categroy.Queries.GetById
         {
             var category = await _categoryService.GetCategoryByIdAsync(request.Id);
             if (category is null)
-                throw new Exception("Category not found");
+                throw new CategroyNotFoundException(request.Id);
+
             return category;
 
     

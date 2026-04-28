@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationLayer.CustomExceptions
+namespace ApplicationLayer.CustomExceptions.NotFoundExceptions
 {
     public class NotFoundException(string message) : Exception(message)
     {

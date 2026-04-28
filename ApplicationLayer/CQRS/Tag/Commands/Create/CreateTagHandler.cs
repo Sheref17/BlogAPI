@@ -1,4 +1,6 @@
-﻿using ApplicationLayer.Interfaces;
+﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
+using ApplicationLayer.Interfaces;
 using CoreLayer.Entities;
 using CoreLayer.IRepos;
 using MediatR;
@@ -21,10 +23,13 @@ namespace ApplicationLayer.CQRS.Tag.Commands.Create
         public async Task<bool> Handle(CreateTagCommand request, CancellationToken cancellationToken)
         {
             var post = await _postRepository.GetByIdAsync(request.PostId);
-            if(post is null) throw new Exception("Post not found");
+            if(post is null) throw new PostNotFoundException(request.PostId);
+
             var tag = new CoreLayer.Entities.Tag(request.Name, request.PostId);
             post.AddTag(tag);
+
             await _postRepository.SaveChangesAsync();
+
             return true;
 
 

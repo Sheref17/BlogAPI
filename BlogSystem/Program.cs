@@ -1,11 +1,17 @@
 
 using ApplicationLayer;
+using ApplicationLayer.Behaviors;
+using ApplicationLayer.CQRS.Blog.Commands.Create;
 using ApplicationLayer.Interfaces;
+using BlogSystem.Extensions;
 using BlogSystem.Middlewares;
 using CoreLayer.IRepos;
+using FluentValidation;
+using InfrastructureLayer;
 using InfrastructureLayer.Data.Contexts;
 using InfrastructureLayer.Identity;
 using InfrastructureLayer.Services;
+using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -28,68 +34,21 @@ namespace BlogSystem
         
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddMediatR(C => C.RegisterServicesFromAssembly(typeof(AssemblyReference).Assembly));
-            builder.Services.AddScoped<IIdentityService, IdentityService>();
-            builder.Services.AddScoped<IJWTService, JWTService>();
-            builder.Services.AddScoped<IPostRepository, PostRepository>();
-            builder.Services.AddHttpContextAccessor();
-            builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
-            builder.Services.AddScoped<IPostQueryService, PostQueryService>();
-            builder.Services.AddScoped<ICategoryService, CategoryService>();
-            builder.Services.AddScoped<ICategroyRepository, CategroyRepository>();
-          
 
-            builder.Services.AddDbContext<ApplicationDbContext>(opt =>
-            {
-                opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-            });
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole<Guid>>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
+            builder.Services.AddApplicationServices();
+            builder.Services.AddInfrastructureServices(builder.Configuration);
 
-            builder.Services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-               .AddJwtBearer(options =>
-                             {
-                                 options.TokenValidationParameters = new TokenValidationParameters
-                                 {
-                                     ValidateIssuer = true,
-                                     ValidateAudience = true,
-                                     ValidateLifetime = true,
-                                     ValidateIssuerSigningKey = true,
-
-                                     ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                                     ValidAudience = builder.Configuration["Jwt:Audience"],
-                                     IssuerSigningKey = new SymmetricSecurityKey(
-                                         Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
-                                     )
-                                 };
-                             });
 
             var app = builder.Build();
 
-            using (var scope = app.Services.CreateScope())
-            {
-              
-                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole<Guid>>>();
-                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            await app.Services.SeedIdentityDataAsync();
 
 
-                await IdentitySeeder.SeedRolesAsync(roleManager);
-                await IdentitySeeder.SeedAdminAndEditorAsync(userManager);
 
 
-            }
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            app.UseSwagger();
+             app.UseSwaggerUI();
+      
 
             app.UseHttpsRedirection();
             app.UseMiddleware<ExceptionMiddleware>();

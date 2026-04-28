@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace PresantisonLayer.Controlles
 {
     [ApiController]
-    [Route("api/tag")]
+    [Route("api/Tag")]
     public class TagController : ControllerBase
     {
         private readonly IMediator _mediator;

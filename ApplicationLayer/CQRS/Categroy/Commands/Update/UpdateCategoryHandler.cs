@@ -1,4 +1,7 @@
-﻿using CoreLayer.IRepos;
+﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.ConflictExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
+using CoreLayer.IRepos;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -19,9 +22,15 @@ namespace ApplicationLayer.CQRS.Categroy.Commands.Update
         public async Task<bool> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
             var category = await _categroyRepository.GetByIdAsync(request.Id);
-            if(category is null) throw new Exception("Category not found");
+            if(category is null) throw new CategroyNotFoundException(request.Id);
+
+            var categoryNameExist = await _categroyRepository.CategoryNameExist(request.Name);
+            if (categoryNameExist) throw new CategroyWithThisNameExistException(request.Name);
+
             category.Update(request.Name);
+
             await _categroyRepository.SaveChangesAsync();
+
             return true;
         }
     }

@@ -1,4 +1,6 @@
-﻿using CoreLayer.IRepos;
+﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
+using CoreLayer.IRepos;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -17,11 +19,15 @@ namespace ApplicationLayer.CQRS.Tag.Commands.Delete
         public async Task<bool> Handle(DeleteTagCommand request, CancellationToken cancellationToken)
         {
             var post = await _postRepository.GetByIdAsync(request.PostId);
-            if(post is null) throw new Exception("Post not found");
+            if(post is null) throw new PostNotFoundException(request.PostId);
+
             var tag = post.Tags.FirstOrDefault(t=>t.Id == request.TagId);
-            if(tag is null) throw new Exception("Tag not found");
+            if(tag is null) throw new TagNotFoundException(request.TagId);
+
             post.RemoveTag(tag);
+
             await _postRepository.SaveChangesAsync();
+
             return true;
 
         }

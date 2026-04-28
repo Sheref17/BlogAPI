@@ -1,4 +1,6 @@
 ﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.AuthourizedExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 using ApplicationLayer.Interfaces;
 using CoreLayer.IRepos;
 using MediatR;
@@ -24,10 +26,12 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Delete
         public async Task<bool> Handle(DeletePostCommand request, CancellationToken cancellationToken)
         {
             if (!_currentUser.IsInRole("Admin"))
-                throw new UnauthorizedAccessException("Not allowed");
+                throw new NotAdminOrEditorException("You Are Not Admin");
+
             var post = await _repo.GetByIdAsync(request.Id);
             if (post is null)
-                throw new PostNotFoundException("Post not found");
+                throw new PostNotFoundException(request.Id);
+
             await _repo.DeleteAsync(post);
             await _repo.SaveChangesAsync();
 

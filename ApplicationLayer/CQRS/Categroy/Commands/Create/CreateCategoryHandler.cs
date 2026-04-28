@@ -1,4 +1,6 @@
-﻿using CoreLayer.Entities;
+﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.ConflictExceptions;
+using CoreLayer.Entities;
 using CoreLayer.IRepos;
 using MediatR;
 using System;
@@ -20,8 +22,10 @@ namespace ApplicationLayer.CQRS.Categroy.Commands.Create
         public async Task<bool> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
         {
             var exististCategory = await _categroyRepository.CategoryNameExist(request.Name);
-            if(exististCategory) throw new Exception("Category name already exist");
+            if(exististCategory) throw new CategroyWithThisNameExistException(request.Name);
+
             var category = new Category(request.Name);
+
             await _categroyRepository.AddAsync(category);
             await _categroyRepository.SaveChangesAsync();
             return true;

@@ -27,9 +27,7 @@ namespace CoreLayer.Entities
 
         public void Update(string content)
         {
-            if (string.IsNullOrWhiteSpace(content))
-                throw new Exception("Content is required");
-
+         
             Content = content;
         }
       

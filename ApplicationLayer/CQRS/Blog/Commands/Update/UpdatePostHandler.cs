@@ -1,4 +1,6 @@
 ﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.AuthourizedExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 using ApplicationLayer.Interfaces;
 using CoreLayer.IRepos;
 using MediatR;
@@ -25,16 +27,21 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Update
         public async Task<bool> Handle(UpdatePostCommand request, CancellationToken cancellationToken)
         {
             if (!_currentUser.IsInRole("Admin") && !_currentUser.IsInRole("Editor"))
-                throw new UnauthorizedAccessException("Not allowed");
+                throw new NotAdminOrEditorException();
+
             var post = await _repo.GetByIdAsync(request.Id);
-            if (post is null) throw new PostNotFoundException("Post Not Found");
-            var categroyExist = await _categroyRepository.GetByIdAsync(request.CategoryId);
+            if (post is null) throw new PostNotFoundException(request.Id);
+
+            var categroyExist = await _categroyRepository.GetByIdAsync(request.CategoryId); 
             if (categroyExist is null)
-                throw new CategroyNotFoundException($"Category With This Id : {request.CategoryId} not found");
-            if (post.AuthorId != _currentUser.UserId) throw new UnauthorizedAccessException("You are not the author of this post");
+                throw new CategroyNotFoundException(request.CategoryId);
+
+           
             post.Update(request.Title, request.Content , request.Status);
+
             if(post.CategoryId != request.CategoryId)
                 post.ChangeCategory(request.CategoryId);
+
             await _repo.SaveChangesAsync();
             return true;
             ;

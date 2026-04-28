@@ -25,10 +25,6 @@ namespace CoreLayer.Entities
         private BlogPost() { }
         public BlogPost(string title, string content, Guid authorId, int categoryId,string status)
         {
-            if (string.IsNullOrWhiteSpace(title))
-                throw new ArgumentException("Title is required");
-
-
             Title = title;
             Content = content;
             AuthorId = authorId;
@@ -41,19 +37,10 @@ namespace CoreLayer.Entities
             }
             else 
                Status = PostStatus.Draft;
-
         }
-        public void Publish()
-        {
-            if (Status != PostStatus.Draft)
-                throw new Exception("Only draft can be published");
-
-            Status = PostStatus.Published;
-        }
+   
         public void Update(string title, string content , string status)
         {
-            if (string.IsNullOrWhiteSpace(title))
-                throw new Exception("Invalid title");
             Title = title;
             Content = content;
             if (!string.IsNullOrWhiteSpace(status) &&

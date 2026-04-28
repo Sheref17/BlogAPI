@@ -1,4 +1,6 @@
-﻿using CoreLayer.IRepos;
+﻿using ApplicationLayer.CustomExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
+using CoreLayer.IRepos;
 using MediatR;
 using Microsoft.VisualBasic;
 using System;
@@ -20,9 +22,12 @@ namespace ApplicationLayer.CQRS.Tag.Commands.Update
         public async Task<bool> Handle(UpdateTagCommand request, CancellationToken cancellationToken)
         {
             var post = await _postRepository.GetByIdAsync(request.PostId);
-            if(post is null) throw new Exception("Post not found");
+            if(post is null) throw new PostNotFoundException(request.PostId);
+
              post.UpdateTag(request.TagId, request.Name);
+
             await _postRepository.SaveChangesAsync();
+
             return true;
 
 

@@ -1,4 +1,6 @@
-﻿using ApplicationLayer.CustomExceptions;
+﻿
+using ApplicationLayer.CustomExceptions.AuthourizedExceptions;
+using ApplicationLayer.CustomExceptions.NotFoundExceptions;
 using ApplicationLayer.Interfaces;
 using CoreLayer.IRepos;
 using MediatR;
@@ -26,12 +28,17 @@ namespace ApplicationLayer.CQRS.Comment.Commands.Edit
             var post = await _repo.GetByIdAsync(request.PostId);
 
             if (post == null)
-                throw new PostNotFoundException("Post not found");
+                throw new PostNotFoundException(request.PostId);
+
             var comment = post.Comments.FirstOrDefault(c => c.Id == request.CommentId);
+
             if (comment == null)
-                throw new NotFoundException("Comment not found");
+                throw new CommentNotFoundException(request.CommentId);
+
             if (comment.UserId != _currentUser.UserId)
-                throw new UnauthorizedAccessException("You can't edit this comment");
+                throw new ForbiddenException("You are not this Authour of this comment");
+
+
             post.UpdateComment(request.CommentId, request.Content);
             await _repo.SaveChangesAsync();
             return true;

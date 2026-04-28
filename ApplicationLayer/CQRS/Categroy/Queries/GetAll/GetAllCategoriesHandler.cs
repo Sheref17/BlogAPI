@@ -21,6 +21,7 @@ namespace ApplicationLayer.CQRS.Categroy.Queries.GetAll
           var categories = await _categoryService.GetAllCategoriesAsync();
             if (categories is not null || categories.Any())
                 return categories;
+
             return Array.Empty<CategoryDto>();
         }
     }
