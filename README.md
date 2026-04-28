@@ -109,7 +109,6 @@ The project follows **Clean Architecture**:
 ## 📈 Next Improvements
 
 * 🔐 Role-based Authorization (Admin / Editor)
-* 🟡 Post Status Management (Draft / Published)
 * 🔍 Filtering & Search
 * ✅ FluentValidation
 * 🧾 Logging (Serilog)
