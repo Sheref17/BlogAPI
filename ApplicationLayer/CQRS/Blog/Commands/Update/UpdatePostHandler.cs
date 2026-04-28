@@ -24,6 +24,8 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Update
         }
         public async Task<bool> Handle(UpdatePostCommand request, CancellationToken cancellationToken)
         {
+            if (!_currentUser.IsInRole("Admin") && !_currentUser.IsInRole("Editor"))
+                throw new UnauthorizedAccessException("Not allowed");
             var post = await _repo.GetByIdAsync(request.Id);
             if (post is null) throw new PostNotFoundException("Post Not Found");
             var categroyExist = await _categroyRepository.GetByIdAsync(request.CategoryId);

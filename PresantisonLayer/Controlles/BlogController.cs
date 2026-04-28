@@ -30,14 +30,14 @@ namespace PresantisonLayer.Controlles
         {
             _mediator = mediator;
         }
-        [Authorize]
+        [Authorize(Roles = "Admin,Editor")]
         [HttpPost("CreateBlog")]
         public async Task<IActionResult> Create(CreatePostCommand command)
         {
             var id = await _mediator.Send(command);
             return Ok($"Blog created successfully with ID: {id}");
         }
-        [Authorize]
+        [Authorize(Roles = "Admin,Editor")]
         [HttpPut("UpdateBlog")]
         public async Task<IActionResult> Update(UpdatePostCommand command)
         {
@@ -49,7 +49,7 @@ namespace PresantisonLayer.Controlles
             return BadRequest("Failed to update blog.");
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("DeleteBlog/{id}")]
         public async Task<IActionResult> Delete(int id)
         {

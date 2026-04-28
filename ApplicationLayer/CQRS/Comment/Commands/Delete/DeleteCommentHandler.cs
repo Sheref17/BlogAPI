@@ -23,13 +23,13 @@ namespace ApplicationLayer.CQRS.Comment.Commands.Delete
         }
         public async Task<bool> Handle(DeleteCommentCommand request, CancellationToken cancellationToken)
         {
+            if (!_currentUser.IsInRole("Admin") )
+                throw new UnauthorizedAccessException("Not allowed");
             var post = await _repo.GetByIdAsync(request.PostId);
             if (post is null) throw new PostNotFoundException($"Post with ID {request.PostId} not found");
             var comment = post.Comments.FirstOrDefault(c => c.Id == request.CommentId);
             if (comment == null)
                 throw new NotFoundException("Comment not found");
-            if (comment.UserId != _currentUser.UserId)
-                throw new UnauthorizedAccessException("You can't delete this comment");
             post.RemoveComment(request.CommentId);
             await _repo.SaveChangesAsync();
             return true;

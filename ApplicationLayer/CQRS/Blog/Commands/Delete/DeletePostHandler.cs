@@ -23,15 +23,11 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Delete
 
         public async Task<bool> Handle(DeletePostCommand request, CancellationToken cancellationToken)
         {
+            if (!_currentUser.IsInRole("Admin"))
+                throw new UnauthorizedAccessException("Not allowed");
             var post = await _repo.GetByIdAsync(request.Id);
-
             if (post is null)
                 throw new PostNotFoundException("Post not found");
-
-
-            if (post.AuthorId != _currentUser.UserId)
-                throw new UnauthorizedAccessException("You are not allowed to delete this post");
-
             await _repo.DeleteAsync(post);
             await _repo.SaveChangesAsync();
 

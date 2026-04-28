@@ -10,5 +10,7 @@ namespace ApplicationLayer.Interfaces
     {
         Guid UserId { get; }
         string? Email { get; }
+        bool IsInRole(string role);
+     
     }
 }

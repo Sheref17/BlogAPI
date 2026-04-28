@@ -32,7 +32,7 @@ namespace PresantisonLayer.Controlles
 
             return Ok("Comment Added Successfully");
         }
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{postId}/Comments/{commentId}")]
         public async Task<IActionResult> DeleteComment(int postId, int commentId)
         {

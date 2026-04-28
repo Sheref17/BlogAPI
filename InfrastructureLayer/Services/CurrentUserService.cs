@@ -38,5 +38,10 @@ namespace PersistenceLayer.Services
       _httpContextAccessor.HttpContext?
       .User?
       .FindFirst(ClaimTypes.Email)?.Value;
+
+        public bool IsInRole(string role)
+        {
+            return _httpContextAccessor.HttpContext.User.IsInRole(role);
+        }
     }
 }

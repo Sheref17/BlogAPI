@@ -73,9 +73,15 @@ namespace BlogSystem
 
             using (var scope = app.Services.CreateScope())
             {
+              
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole<Guid>>>();
+                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
 
                 await IdentitySeeder.SeedRolesAsync(roleManager);
+                await IdentitySeeder.SeedAdminAndEditorAsync(userManager);
+
+
             }
 
             // Configure the HTTP request pipeline.

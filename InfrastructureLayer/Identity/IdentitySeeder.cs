@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using InfrastructureLayer.Identity;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,54 @@ namespace PersistenceLayer.Identity
 
                     });
                 }
+            }
+        }
+        public static async Task SeedAdminAndEditorAsync(UserManager<ApplicationUser> userManager)
+        {
+            var adminEmail = "admin@blog.com";
+
+            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+
+            if (adminUser == null)
+            {
+                adminUser = new ApplicationUser
+                {
+                    UserName = "admin",
+                    Email = adminEmail,
+                    FullName = "System Admin"
+
+                };
+
+                var result = await userManager.CreateAsync(adminUser, "Admin@123");
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                }
+            }
+
+
+            var editorEmail = "editor@blog.com";
+
+            var editorUser = await userManager.FindByEmailAsync(editorEmail);
+
+            if (editorUser == null)
+            {
+                editorUser = new ApplicationUser
+                {
+                    UserName = "editor",
+                    Email = editorEmail,
+                    FullName = "System Editor",
+
+                };
+
+                var result = await userManager.CreateAsync(editorUser, "Editor@123");
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(editorUser, "Editor");
+                }
+
             }
         }
     }

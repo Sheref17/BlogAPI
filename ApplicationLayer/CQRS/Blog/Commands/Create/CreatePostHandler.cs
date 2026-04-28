@@ -26,6 +26,8 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
         }
         public async Task<int> Handle(CreatePostCommand request, CancellationToken cancellationToken)
         {
+            if (!_currentUser.IsInRole("Admin") && !_currentUser.IsInRole("Editor"))
+                throw new UnauthorizedAccessException("Not allowed");
             var categoryExist = await _categroyRepository.GetByIdAsync(request.CategoryId);
             if (categoryExist is null)
             {
