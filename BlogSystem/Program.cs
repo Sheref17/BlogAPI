@@ -14,7 +14,6 @@ using PersistenceLayer.Identity;
 using PersistenceLayer.Repos;
 using PersistenceLayer.Services;
 using System.Text;
-
 namespace BlogSystem
 {
     public class Program
@@ -23,10 +22,10 @@ namespace BlogSystem
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+    
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+        
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddMediatR(C => C.RegisterServicesFromAssembly(typeof(AssemblyReference).Assembly));
@@ -39,10 +38,6 @@ namespace BlogSystem
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ICategroyRepository, CategroyRepository>();
           
-
-
-
-
 
             builder.Services.AddDbContext<ApplicationDbContext>(opt =>
             {

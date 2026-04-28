@@ -22,7 +22,7 @@ namespace ApplicationLayer.CQRS.Tag.Commands.Create
         {
             var post = await _postRepository.GetByIdAsync(request.PostId);
             if(post is null) throw new Exception("Post not found");
-            var tag = new CoreLayer.Entities.Tag(request.Name);
+            var tag = new CoreLayer.Entities.Tag(request.Name, request.PostId);
             post.AddTag(tag);
             await _postRepository.SaveChangesAsync();
             return true;

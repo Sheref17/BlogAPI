@@ -15,10 +15,15 @@ namespace PersistenceLayer.Data.Configruation
         public void Configure(EntityTypeBuilder<BlogPost> builder)
         {
             builder.HasMany(p => p.Comments)
-                    .WithOne(c => c.BlogPost)
+                    .WithOne()
                     .HasForeignKey(c => c.BlogPostId)
                     .IsRequired()
                     .OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(p => p.Tags)
+                .WithOne()
+                .HasForeignKey(t => t.BlogPostId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

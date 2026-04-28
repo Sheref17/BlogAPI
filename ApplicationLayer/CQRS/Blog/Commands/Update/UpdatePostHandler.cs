@@ -30,8 +30,9 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Update
             if (categroyExist is null)
                 throw new CategroyNotFoundException($"Category With This Id : {request.CategoryId} not found");
             if (post.AuthorId != _currentUser.UserId) throw new UnauthorizedAccessException("You are not the author of this post");
-            post.Update(request.Title, request.Content);
-            post.ChangeCategory(request.CategoryId);
+            post.Update(request.Title, request.Content , request.Status);
+            if(post.CategoryId != request.CategoryId)
+                post.ChangeCategory(request.CategoryId);
             await _repo.SaveChangesAsync();
             return true;
             ;

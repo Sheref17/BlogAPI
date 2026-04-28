@@ -11,6 +11,7 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
     {
         public string Title { get; set; } = default!;
         public string Content { get; set; } = default!;
+        public string Status { get; set; } 
         public int CategoryId { get; set; }
     }
 }

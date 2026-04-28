@@ -10,14 +10,15 @@ namespace CoreLayer.Entities
     {
         public int Id { get; private set; }
         public string Name { get; private set; }
+        public int BlogPostId { get; private set; }
         private Tag()
         {
         }
-        public Tag(string name)
+        public Tag(string name, int blogPostId)
         {
           
             Name = name;
-
+            BlogPostId = blogPostId;
         }
         public void Update(string name)
         {

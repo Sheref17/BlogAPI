@@ -36,7 +36,8 @@ namespace ApplicationLayer.CQRS.Blog.Commands.Create
                 request.Title,
                 request.Content,
                 _currentUser.UserId,
-                request.CategoryId
+                request.CategoryId,
+                request.Status
 
             );
 

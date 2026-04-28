@@ -13,7 +13,6 @@ namespace CoreLayer.Entities
         public string Content { get; private set; }
         public DateTime CreatedAt { get; private set; }
         public int BlogPostId { get; private set; }
-        public BlogPost BlogPost { get; private set; }
 
         private Comment() { }
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace PersistenceLayer.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260427125710_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20260427183704_intialcreate")]
+    partial class intialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -113,7 +113,7 @@ namespace PersistenceLayer.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("BlogPostId")
+                    b.Property<int>("BlogPostId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -341,20 +341,20 @@ namespace PersistenceLayer.Data.Migrations
 
             modelBuilder.Entity("CoreLayer.Entities.Comment", b =>
                 {
-                    b.HasOne("CoreLayer.Entities.BlogPost", "BlogPost")
+                    b.HasOne("CoreLayer.Entities.BlogPost", null)
                         .WithMany("Comments")
                         .HasForeignKey("BlogPostId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("BlogPost");
                 });
 
             modelBuilder.Entity("CoreLayer.Entities.Tag", b =>
                 {
                     b.HasOne("CoreLayer.Entities.BlogPost", null)
                         .WithMany("Tags")
-                        .HasForeignKey("BlogPostId");
+                        .HasForeignKey("BlogPostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>

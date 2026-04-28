@@ -23,7 +23,7 @@ namespace CoreLayer.Entities
         public int CategoryId { get; private set; }
         public Category Category { get; private set; }
         private BlogPost() { }
-        public BlogPost(string title, string content, Guid authorId, int categoryId)
+        public BlogPost(string title, string content, Guid authorId, int categoryId,string status)
         {
             if (string.IsNullOrWhiteSpace(title))
                 throw new ArgumentException("Title is required");
@@ -34,7 +34,14 @@ namespace CoreLayer.Entities
             AuthorId = authorId;
             CategoryId = categoryId;
             CreatedAt = DateTime.UtcNow;
-            Status = PostStatus.Draft;
+            if (!string.IsNullOrWhiteSpace(status) &&
+             Enum.TryParse<PostStatus>(status, true, out var parsedStatus))
+            {
+                Status = parsedStatus;
+            }
+            else 
+               Status = PostStatus.Draft;
+
         }
         public void Publish()
         {
@@ -43,13 +50,17 @@ namespace CoreLayer.Entities
 
             Status = PostStatus.Published;
         }
-        public void Update(string title, string content)
+        public void Update(string title, string content , string status)
         {
             if (string.IsNullOrWhiteSpace(title))
                 throw new Exception("Invalid title");
-
             Title = title;
             Content = content;
+            if (!string.IsNullOrWhiteSpace(status) &&
+          Enum.TryParse<PostStatus>(status, true, out var parsedStatus))
+            {
+                Status = parsedStatus;
+            }
         }
         
        
