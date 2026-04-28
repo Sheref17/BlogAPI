@@ -3,6 +3,7 @@ using ApplicationLayer.CQRS.Blog.BlogDtos;
 using ApplicationLayer.CQRS.Comment.CommentDtos;
 using ApplicationLayer.CQRS.Tag.TagDtos;
 using ApplicationLayer.Interfaces;
+using CoreLayer.Entities.Enums;
 using InfrastructureLayer.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,12 +18,15 @@ namespace PersistenceLayer.Services
             _context = context;
         }
 
-        public async Task<PostDetailsDto?> GetByIdAsync(int id, int page, int pageSize)
+        public async Task<PostDetailsDto?> GetByIdAsync(int id, int page, int pageSize, bool canViewAllStatuses)
         {
-      
-            var post = await _context.Posts
-                .Where(p => p.Id == id)
-                .Select(p => new
+
+            var postQuery = _context.Posts.Where(p => p.Id == id);
+            if (!canViewAllStatuses)
+            {
+                postQuery = postQuery.Where(p => p.Status == PostStatus.Published);
+            }
+            var post = await postQuery.Select(p => new
                 {
                     p.Id,
                     p.Title,
@@ -40,7 +44,7 @@ namespace PersistenceLayer.Services
 
             if (post == null) return null;
 
-         
+
             var commentsQuery = _context.Comments
                 .Where(c => c.BlogPostId == id);
 
@@ -88,9 +92,30 @@ namespace PersistenceLayer.Services
             };
         }
 
-        public async Task<PagedResponse<PostResponseDto>> GetAllAsync(int page, int pageSize)
+        public async Task<PagedResponse<PostResponseDto>> GetAllAsync(int page, int pageSize, string? title, string? tag, int? categoryId, string? status , bool canViewAllStatuses)
         {
-            var query = _context.Posts.AsQueryable();
+            var query = _context.Posts.AsNoTracking().AsQueryable();
+            if (!canViewAllStatuses)
+            {
+                query = query.Where(p => p.Status == PostStatus.Published);
+            }
+            if (!string.IsNullOrWhiteSpace(title))
+            {
+                query = query.Where(p => p.Title.Contains(title));
+            }
+            if (!string.IsNullOrWhiteSpace(tag))
+            {
+                query = query.Where(p => p.Tags.Any(t => t.Name.Contains(tag)));
+            }
+            if (categoryId.HasValue)
+            {
+                query = query.Where(p => p.CategoryId == categoryId.Value);
+            }
+            if (canViewAllStatuses && !string.IsNullOrWhiteSpace(status) && Enum.TryParse<PostStatus>(status, true, out var parsedStatus))
+            {
+                query = query.Where(p => p.Status == parsedStatus);
+            }
+
 
             var totalCount = await query.CountAsync();
 
@@ -101,7 +126,7 @@ namespace PersistenceLayer.Services
                 page = totalPages == 0 ? 1 : totalPages;
 
             var data = await query
-                .OrderBy(p => p.CreatedAt)
+                .OrderByDescending(p => p.CreatedAt)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .Select(p => new PostResponseDto

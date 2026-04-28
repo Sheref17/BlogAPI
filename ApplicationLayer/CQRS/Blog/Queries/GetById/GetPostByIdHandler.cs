@@ -14,17 +14,20 @@ namespace ApplicationLayer.CQRS.Blog.Queries.GetById
     {
 
         private readonly IPostQueryService _queryService;
+        private readonly ICurrentUserService _currentUser;
 
-        public GetPostByIdHandler(IPostQueryService queryService)
+        public GetPostByIdHandler(IPostQueryService queryService , ICurrentUserService currentUser)
         {
             _queryService = queryService;
+            _currentUser = currentUser;
         }
         public async Task<PostDetailsDto> Handle(GetPostByIdQuery request, CancellationToken cancellationToken)
         {
 
             if (request.Page <= 0) request.Page = 1;
             if (request.PageSize <= 0 || request.PageSize > 5) request.PageSize = 5;
-            var post = await _queryService.GetByIdAsync(request.Id ,request.Page ,request.PageSize);
+            var canViewAllStatuses =_currentUser.IsInRole("Admin") || _currentUser.IsInRole("Editor");
+            var post = await _queryService.GetByIdAsync(request.Id ,request.Page ,request.PageSize , canViewAllStatuses);
 
             if (post == null)
                 throw new PostNotFoundException("Post not found");
